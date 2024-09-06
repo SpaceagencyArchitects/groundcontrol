@@ -42,7 +42,7 @@ A guide to where information belongs within the drawing set.
 - [L - Furniture, Fixtures, Fittings and Equipment (FFE)](notes/1_Documentation%20Codex/1b_Alphabet/L%20-%20Furniture,%20Fixtures,%20Fittings%20and%20Equipment%20(FFE).md)
 - [M - Joinery](notes/1_Documentation%20Codex/1b_Alphabet/M%20-%20Joinery.md)
 - [N - Metalwork](notes/1_Documentation%20Codex/1b_Alphabet/N%20-%20Metalwork.md)
-- P - not in use
+- [[P - Lighting and Power Plans]]
 - Q - not in use
 - [R - Miscellaneous](notes/1_Documentation%20Codex/1b_Alphabet/R%20-%20Miscellaneous.md)
 - [S - Signage](notes/1_Documentation%20Codex/1b_Alphabet/S%20-%20Signage.md)
