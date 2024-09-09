@@ -1,12 +1,12 @@
 ---
 title: "Annotations"
 ---
-#### DRAWING DESCRIPTION
+# DRAWING DESCRIPTION
 
 Use generic material and system descriptions (e.g.‘lining’, ‘ceiling’, ‘cladding’, ‘roof sheeting’), followed by the legend sheet code describing the system or material, followed by the generic description of the finish, followed by the legend sheet finishes code:
 ![00-image](notes/1_Documentation%20Codex/1a_Principles/assets/00-image.svg)
 
-#### WRITING STYLE
+# WRITING STYLE
 
 It is very important to apply consistent writing style, with particular attention to wording and consistent use of terms.
 
@@ -14,15 +14,15 @@ For the vast majority of written description of the building elements, we use co
 
 Write instructions in simple, clear, direct short sentences, following the principle “one expression, one simple meaning”. Avoid the use of abbreviations and acronyms, unless they are listed and described on the legend sheet.
 
-#### ABBREVIATIONS AND CODES
+# ABBREVIATIONS AND CODES
 
 Use abbreviations as long as they are listed on the legend sheet. Use the legend sheet codes for describing systems, materials and finishes.
 
-#### FONT SIZE
+# FONT SIZE
 
 The minimum recommended height of the characters is 2.0mm when printed at full size. Detail titles should be 3.5mm high. The general rule is that the text has to remain legible (without a magnifying glass) when reduced to half size.
 
-#### TEXT ORIENTATION
+# TEXT ORIENTATION
 
 To maintain legibility and uniformity, any text on a drawing has to be either horizontal or rotated 90° counterclockwise:
 

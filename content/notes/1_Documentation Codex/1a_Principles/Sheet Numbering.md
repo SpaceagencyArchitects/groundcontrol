@@ -4,7 +4,7 @@ title: "Sheet Numbering"
 Elements of the drawing numbers described here are essential for successful navigation within the set.
 There are two different numbering system. Choose the system that best suits the size an complexity of the project. The adopted numbering system needs to be consistent throughout the drawing set.
 
-### The SpA Classic Method
+# The SpA Classic Method
 Drawing Numbers are composed using the following designators:
 **(Discipline)(Sheet Type)(Sequence Number)**
 eg. A101
@@ -27,12 +27,12 @@ Sheet Types designators used for spaceagency drawings are:
 
 The final component of the sheet number is the two-digit **sequence number**, which is between 01 and 99. The sequence numbers do not have to be sequential so that space may be left within the set for future additions.
 
-#### Example Sheet Numbers
+## Example Sheet Numbers
 
 A107 - Architectural Floor Plan, seventh sheet
 A204 - Architectural Elevations, fourth sheet
 
-### The SpA Alphabet Method
+# The SpA Alphabet Method
 The Alphabet method relates to the groups of drawings described in the SpA Alphabet. It is more suitable for larger, more complex projects that require a greater range of drawings to desribe the project.
 Drawing numbers are composed using the following designators:
 

@@ -4,18 +4,18 @@ title: "Signage"
 ### Identify Signs
 
 #### B - Floor Plans (1:100)
-(see [B - Floor and Roof Plans](content/notes/1_Documentation%20Codex/1b_Alphabet/B%20-%20Floor%20and%20Roof%20Plans.md))
+(see [B - Floor and Roof Plans](notes/1_Documentation%20Codex/1b_Alphabet/B%20-%20Floor%20and%20Roof%20Plans.md))
 - Identify free standing and wall hung signage items
 
 #### E - Reflected Ceiling Plans (1:100)
-(see [E - Reflected Ceiling Plans](content/notes/1_Documentation%20Codex/1b_Alphabet/E%20-%20Reflected%20Ceiling%20Plans.md))
+(see [E - Reflected Ceiling Plans](notes/1_Documentation%20Codex/1b_Alphabet/E%20-%20Reflected%20Ceiling%20Plans.md))
 - Identify ceiling hung signage items
 Note: Wayfinding signage elements will be documented by a signage consultant if your job has one - in that case we only do setting-out in B and E series general arrangement plans. Statutory signage (e.g. FIRE DOORS KEEP CLOSED, etc.) is most often associated with the doors and scheduled as part of J series door schedule.
 
 ### Describe Signs
 
 #### A - Legend Sheet
-(see [A (A0 Introductory documents](content/notes/1_Documentation%20Codex/1b_Alphabet/A%20(A0%20Introductory%20documents.md))
+(see [A (A0 Introductory documents](notes/1_Documentation%20Codex/1b_Alphabet/A%20(A0%20Introductory%20documents.md))
 _(only if part of our contract)_
 - Key to codes - description of wayfinding signage items; reference to specification section
 ![02-image 8](notes/1_Documentation%20Codex/1c_Building%20Components/assets/02-image%208.svg)
@@ -35,5 +35,5 @@ _(only if part of our contract)_
 ![04-image 5](notes/1_Documentation%20Codex/1c_Building%20Components/assets/04-image%205.svg)
 
 #### Z - Specifications
-(see [Z - Specifications and Schedules](content/notes/1_Documentation%20Codex/1b_Alphabet/Z%20-%20Specifications%20and%20Schedules.md))
+(see [Z - Specifications and Schedules](notes/1_Documentation%20Codex/1b_Alphabet/Z%20-%20Specifications%20and%20Schedules.md))
 - _(only if part of our contract)_

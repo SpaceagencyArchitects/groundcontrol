@@ -6,7 +6,6 @@ This section outlines how and where building components should be identified and
 ### Index
 
 - [Ceilings](notes/1_Documentation%20Codex/1c_Building%20Components/Ceilings.md)
-- [Cleaning Equipment](notes/1_Documentation%20Codex/1c_Building%20Components/Cleaning%20Equipment.md)
 - [Concrete Setting out and Waterproofing](notes/1_Documentation%20Codex/1c_Building%20Components/Concrete%20Setting%20out%20and%20Waterproofing.md)
 - [Demolition](notes/1_Documentation%20Codex/1c_Building%20Components/Demolition.md)
 - [Doors](notes/1_Documentation%20Codex/1c_Building%20Components/Doors.md)

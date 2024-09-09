@@ -1,7 +1,7 @@
 ---
 title: "1a Principles"
 ---
-### Benefits of Following the SpA Documentation Approach
+# Benefits of Following the SpA Documentation Approach
 
 - Efficient communication of design intent through a legible, simple, clear document
 - The focus is on design, buildability and scope, rather than the drafting process
@@ -11,7 +11,7 @@ title: "1a Principles"
 - There is flexibility to accommodate design changes throughout the construction documentation stage
 - Better project outcomes
 
-### Departure from the SpA Documentation Approach
+# Departure from the SpA Documentation Approach
 
 There are many facets to construction documentation and many aspects which influence the way the construction documentation set will evolve. The project and contract type, builder’s preferences, consultant’s preferences, SpA team leader’s preferences, will all play a part in the sculpting of the document. Adjustments to suit a particular project are inevitable.
 
@@ -21,11 +21,11 @@ That decision is a matter of professional judgment, informed by the full underst
 
 Once  greed, the altered set of rules has to be implemented consistently throughout the set.
 
-### Guides Not Rules
+# Guides Not Rules
 
 Concepts outlined in this document are principles, not rigid rules. This set of principles provides a base line for tested and efficient ways of completing the project documentation tasks.
 
-### Index
+# Index
 
 - [Allocation of Information](notes/1_Documentation%20Codex/1a_Principles/Allocation%20of%20Information.md)
 - [Documentation Planning Storyboarding](notes/1_Documentation%20Codex/1a_Principles/Documentation%20Planning%20Storyboarding.md)

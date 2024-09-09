@@ -15,10 +15,10 @@ title: "Furniture"
 ![01-image 1 2](notes/1_Documentation%20Codex/1c_Building%20Components/assets/01-image%201%202.svg)
 
 #### Z - Furniture Schedule
-(see [Z - Specifications and Schedules](content/notes/1_Documentation%20Codex/1b_Alphabet/Z%20-%20Specifications%20and%20Schedules.md))
+(see [Z - Specifications and Schedules](notes/1_Documentation%20Codex/1b_Alphabet/Z%20-%20Specifications%20and%20Schedules.md))
 - Standalone A4 document, providing full description of the furniture items
 ![02-image 1 2](notes/1_Documentation%20Codex/1c_Building%20Components/assets/02-image%201%202.svg)
 
 #### Z - Specifications
-(see [Z - Specifications and Schedules](content/notes/1_Documentation%20Codex/1b_Alphabet/Z%20-%20Specifications%20and%20Schedules.md))
+(see [Z - Specifications and Schedules](notes/1_Documentation%20Codex/1b_Alphabet/Z%20-%20Specifications%20and%20Schedules.md))
 _(only if required by contract)_

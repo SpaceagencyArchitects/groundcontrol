@@ -4,17 +4,17 @@ title: "Metalworks"
 ### Identity Architectural Metalwork Items
 
 #### B - Floor and Roof Plans (1:100)
-(see [B - Floor and Roof Plans](content/notes/1_Documentation%20Codex/1b_Alphabet/B%20-%20Floor%20and%20Roof%20Plans.md))
+(see [B - Floor and Roof Plans](notes/1_Documentation%20Codex/1b_Alphabet/B%20-%20Floor%20and%20Roof%20Plans.md))
 _(If showing metalwork at **1:100** makes drawing graphically heavy, create a **1:100** subset of general arrangement Metalwork drawings in N series)_
 
 #### G - Internal Spaces Plans (1:50)
-(see [G - Internal Spaces (Room Layouts)](content/notes/1_Documentation%20Codex/1b_Alphabet/G%20-%20Internal%20Spaces%20(Room%20Layouts).md))
+(see [G - Internal Spaces (Room Layouts)](notes/1_Documentation%20Codex/1b_Alphabet/G%20-%20Internal%20Spaces%20(Room%20Layouts).md))
 _(e.g. lobby, foyer, atrium, banquet room, reception, meeting room, auditorium and similar spaces enlarged to **1:50**)_
 
 ### Describe Construction and Finishes
 
 #### A - Legend Sheet
-(see [A (A0 Introductory documents](content/notes/1_Documentation%20Codex/1b_Alphabet/A%20(A0%20Introductory%20documents.md))
+(see [A (A0 Introductory documents](notes/1_Documentation%20Codex/1b_Alphabet/A%20(A0%20Introductory%20documents.md))
 Key - description of metalwork systems, materials and finishes; reference to specification section
 ![02-image 5 1](notes/1_Documentation%20Codex/1c_Building%20Components/assets/02-image%205%201.svg)
 
@@ -34,5 +34,5 @@ Depending on the configuration of your building, you may need to provide a refle
 ![04-image 3 1](notes/1_Documentation%20Codex/1c_Building%20Components/assets/04-image%203%201.svg)
 
 #### Z - Architectural Metalwork Specifications
-(see [Z - Specifications and Schedules](content/notes/1_Documentation%20Codex/1b_Alphabet/Z%20-%20Specifications%20and%20Schedules.md))
+(see [Z - Specifications and Schedules](notes/1_Documentation%20Codex/1b_Alphabet/Z%20-%20Specifications%20and%20Schedules.md))
 

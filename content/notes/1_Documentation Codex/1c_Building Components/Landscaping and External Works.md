@@ -9,7 +9,7 @@ title: "Landscaping and External Works"
 ### Describe Construction and Finishes
 
 #### A - Legend Sheet
-(see [A (A0 Introductory documents](content/notes/1_Documentation%20Codex/1b_Alphabet/A%20(A0%20Introductory%20documents.md))
+(see [A (A0 Introductory documents](notes/1_Documentation%20Codex/1b_Alphabet/A%20(A0%20Introductory%20documents.md))
 - Key - description of external works systems, materials and finishes; reference to specification section
 ![01-image 2 2](notes/1_Documentation%20Codex/1c_Building%20Components/assets/01-image%202%202.svg)
 
@@ -24,4 +24,4 @@ title: "Landscaping and External Works"
 ![03-image 2 1](notes/1_Documentation%20Codex/1c_Building%20Components/assets/03-image%202%201.svg)
 
 #### Z - External Works Specifications
-(see [Z - Specifications and Schedules](content/notes/1_Documentation%20Codex/1b_Alphabet/Z%20-%20Specifications%20and%20Schedules.md))
+(see [Z - Specifications and Schedules](notes/1_Documentation%20Codex/1b_Alphabet/Z%20-%20Specifications%20and%20Schedules.md))

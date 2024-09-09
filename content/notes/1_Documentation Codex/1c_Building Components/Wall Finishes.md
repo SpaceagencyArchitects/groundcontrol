@@ -9,12 +9,12 @@ DETAILS REFER TO DRAWING AR-G-\*\*-\*\*’
 ### Describe Finishes
 
 #### A - Legend Sheet
-(see [A (A0 Introductory documents](content/notes/1_Documentation%20Codex/1b_Alphabet/A%20(A0%20Introductory%20documents.md))
+(see [A (A0 Introductory documents](notes/1_Documentation%20Codex/1b_Alphabet/A%20(A0%20Introductory%20documents.md))
 - Key - description of finishes codes; reference to specification section
 ![01-image 2 3](notes/1_Documentation%20Codex/1c_Building%20Components/assets/01-image%202%203.svg)
 
 #### F - Room Schedule
-(see [F - Floor, Wall and Ceiling Finishes](content/notes/1_Documentation%20Codex/1b_Alphabet/F%20-%20Floor,%20Wall%20and%20Ceiling%20Finishes.md))
+(see [F - Floor, Wall and Ceiling Finishes](notes/1_Documentation%20Codex/1b_Alphabet/F%20-%20Floor,%20Wall%20and%20Ceiling%20Finishes.md))
 _(Covers most of the areas by allocating FINISHES code)_
 - The wall finishes are described by listing the finishes codes
 under the \|WALL/FINISH\| criteria
@@ -22,13 +22,13 @@ under the \|WALL/FINISH\| criteria
  ![02-image 1 3](notes/1_Documentation%20Codex/1c_Building%20Components/assets/02-image%201%203.svg)
 
 #### G - Internal Spaces Elevations (1:50, 1:25)
-(see[G - Internal Spaces (Room Layouts)](content/notes/1_Documentation%20Codex/1b_Alphabet/G%20-%20Internal%20Spaces%20(Room%20Layouts).md))
+(see[G - Internal Spaces (Room Layouts)](notes/1_Documentation%20Codex/1b_Alphabet/G%20-%20Internal%20Spaces%20(Room%20Layouts).md))
 _(if provided)_
 - Describe areas of different wall finishes using finishes codes
 ![03-image 2 2](notes/1_Documentation%20Codex/1c_Building%20Components/assets/03-image%202%202.svg)
 
 #### Z - Painting Specifications
-(see [Z - Specifications and Schedules](content/notes/1_Documentation%20Codex/1b_Alphabet/Z%20-%20Specifications%20and%20Schedules.md))
+(see [Z - Specifications and Schedules](notes/1_Documentation%20Codex/1b_Alphabet/Z%20-%20Specifications%20and%20Schedules.md))
 
 #### Z - Tiling Specifications
-(see [Z - Specifications and Schedules](content/notes/1_Documentation%20Codex/1b_Alphabet/Z%20-%20Specifications%20and%20Schedules.md))
+(see [Z - Specifications and Schedules](notes/1_Documentation%20Codex/1b_Alphabet/Z%20-%20Specifications%20and%20Schedules.md))

@@ -3,7 +3,7 @@ title: "Codes"
 ---
 Codes provide a link between a detail, a long description on the legend sheet and the full description in the specification.
 
-#### BENEFITS
+# BENEFITS
 
 - Codes increase flexibility, efficiency and accuracy and accommodate design changes during the Construction Documentation phase. For instance:
 	- A portion of a façade is given the code CLAD-2 and described on the legend sheet as ‘COMPOSITE ALUMINIUM SANDWICH PANEL’. CLAD-2 as description will be frequently used in numerous parts of the Architectural Drawing Set.
@@ -11,7 +11,7 @@ Codes provide a link between a detail, a long description on the legend sheet an
 	- Only the legend sheet and specifications need to be re-issued and the rest of the drawing set is automatically up-to-date.
 - Specification writers prefer code because it gives them an all-inclusive listing of systems, materials and finishes, and consequently assures completeness of the specifications.
 
-#### SYSTEMS, MATERIALS AND FINISHES CODES
+# SYSTEMS, MATERIALS AND FINISHES CODES
 
 A system is a set of parts that perform a specific function within a building. It consists of a number of selected building elements, assembled together in a pre-determined configuration, e.g. EXTERNAL WALL CLADDING SYSTEM, DRAINAGE SYSTEM, RAISED FLOOR SYSTEM
 
@@ -21,7 +21,7 @@ Finish describes the required appearance of a material – e.g. HONED, POLISHED,
 
 The use of ‘systems’ rather than ‘materials’ is often beneficial, since it generally offers greater flexibility.
 
-#### ABBREVIATIONS
+# ABBREVIATIONS
 
 The legend sheet also lists abbreviations used in the Architectural Drawing Set. Abbreviations are a shortened form of a word used in the annotation. 
 

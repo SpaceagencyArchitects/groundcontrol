@@ -4,7 +4,7 @@ title: "Wet Areas"
 ### Identify Wet Areas
 
 #### B - Floor Plans (1:100)
-(see [B - Floor and Roof Plans](content/notes/1_Documentation%20Codex/1b_Alphabet/B%20-%20Floor%20and%20Roof%20Plans.md))
+(see [B - Floor and Roof Plans](notes/1_Documentation%20Codex/1b_Alphabet/B%20-%20Floor%20and%20Roof%20Plans.md))
 - Room numbers and room names only
 
 Note:
@@ -14,7 +14,7 @@ items on **1:20** Q series detail drawing.
 ### Describe Construction and Finishes
 
 #### A - Legend Sheet
-(see [A (A0 Introductory documents](content/notes/1_Documentation%20Codex/1b_Alphabet/A%20(A0%20Introductory%20documents.md))
+(see [A (A0 Introductory documents](notes/1_Documentation%20Codex/1b_Alphabet/A%20(A0%20Introductory%20documents.md))
 _(A series general legend lists finishes codes e.g. paints and tiles that may be used elsewhere on the project)_
 - Key - description of systems, materials and finishes; reference to specification section
 ![01-image 2 4](notes/1_Documentation%20Codex/1c_Building%20Components/assets/01-image%202%204.svg)
@@ -39,4 +39,4 @@ Depending on the configuration of your building, you may need to provide a refle
 ![04-image 1 4](notes/1_Documentation%20Codex/1c_Building%20Components/assets/04-image%201%204.svg)
 
 #### Z - Specifications
-(see [Z - Specifications and Schedules](content/notes/1_Documentation%20Codex/1b_Alphabet/Z%20-%20Specifications%20and%20Schedules.md))
+(see [Z - Specifications and Schedules](notes/1_Documentation%20Codex/1b_Alphabet/Z%20-%20Specifications%20and%20Schedules.md))

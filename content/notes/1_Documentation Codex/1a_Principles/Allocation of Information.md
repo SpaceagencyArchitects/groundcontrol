@@ -1,26 +1,26 @@
 ---
 title: "Allocation of Information"
 ---
-#### Drawings
+# Drawings
 
 >“The drawings are the graphic and pictorial portions of the contract documents showing the design, location and dimensions of the work, generally including plans, elevations, sections, details, schedules and diagrams.”
 
 _American Institute of Architects (AIA) Document A201-2007 – General_
 
 
-#### Schedules
+# Schedules
 
 The _architectural drawing set_ includes ‘assembly of elements’ schedules, e.g. door schedule and the room (finishes) schedule.
 
 They are printed on the same size paper as the rest of the set and include the SpA title block, drawing name and revision column.
 
-#### Specifications
+# Specifications
 
 >“The specifications are that portion of the contract document consisting of the written requirements for materials, equipment, systems, standards and workmanship for the work, and performance of the related services.”
 
 _American Institute of Architects (AIA) Document A201-2007 – General Conditions of the Contract for Construction, Paragraph 1.1.6_
 
-#### Content of Specification
+# Content of Specification
 
 A typical architectural specification contains two categories of descriptions:
 
@@ -28,7 +28,7 @@ _Technical_: e.g. materials, fabrication, workmanship, preparation, installation
 
 _Non-technical_: e.g. scope of work, delivery of materials, samples and shop drawings requirements, permits, guarantees, job conditions, cleaning, etc
 
-#### Say It Once
+# Say It Once
 
 Provide a piece of information as few times as possible and only in the agreed place. Ideally only once within the Architectural Drawing Set. On a drawing or in a schedule.
 
