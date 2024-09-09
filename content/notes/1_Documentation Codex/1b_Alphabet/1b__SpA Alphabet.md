@@ -32,6 +32,3 @@ The drawing scales assigned to the letters of the SpA Alphabet are prescriptive.
 - [U - Resource Management (formerly Demolition)](notes/1_Documentation%20Codex/1b_Alphabet/U%20-%20Resource%20Management%20(formerly%20Demolition).md)
 - [V - Concrete, Framing and Waterproofing Plans](notes/1_Documentation%20Codex/1b_Alphabet/V%20-%20Concrete,%20Framing%20and%20Waterproofing%20Plans.md)
 - [Z - Specifications and Schedules](notes/1_Documentation%20Codex/1b_Alphabet/Z%20-%20Specifications%20and%20Schedules.md)
-
-ArchiCAD References:
-- [GWG_Detailing](notes/1_Documentation%20Codex/1d_ArchiCAD/_assets/GWG_Detailing.pdf)
