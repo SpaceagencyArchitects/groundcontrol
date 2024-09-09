@@ -1,16 +1,16 @@
 ---
 title: "J - Doors and Windows"
 ---
-**Drawings: A901-A999**
+**Classic Drawings: A901-A999**
 **Alphabet Drawings: A.J.01-A.J.99**
 
-### ILLUSTRATED WINDOW SCHEDULE
+## ILLUSTRATED WINDOW SCHEDULE
 
 Window schedules vary between projects, mostly depending on the security requirements, resulting in the introduction of additional criteria.
 
 - Interactive window schedule in tabular format.
 
-#### CONTENTS OF ‘BASE CASE’ WINDOW SCHEDULE: ###
+### CONTENTS OF ‘BASE CASE’ WINDOW SCHEDULE: ###
 
 - Window number
 - Window elevation - with overall sizes of frame and leaves and setting out of elements associated with windows, e.g. hardware, trickle vents, manifestation.
@@ -26,7 +26,7 @@ Window schedules vary between projects, mostly depending on the security require
 - Seals
 - Additional notes (eg. special subsills with integrated drainage)
 
-### DOOR SCHEDULE SPREADSHEET
+## DOOR SCHEDULE SPREADSHEET
 
 Doors schedules vary between projects, mostly depending on the security requirements, resulting in the introduction of additional criteria.
 
@@ -36,7 +36,7 @@ Doors schedules vary between projects, mostly depending on the security requirem
 	OR, when door/hardware schedules are to be prepared by a supplier
 - describe performance related specifics for door hardware and furniture.
 
-#### CONTENTS OF 'BASE CASE' DOOR SCHEDULE:
+### CONTENTS OF 'BASE CASE' DOOR SCHEDULE:
 
 - Level
 - Door number
@@ -72,12 +72,12 @@ Doors schedules vary between projects, mostly depending on the security requirem
 
 *** Sundry elements e.g. roller shutters and the like are scheduled in the same way as any other door on the project. Use the ‘remarks’ column to describe performance related specifics.
 
-#### DOOR TYPE ELEVATIONS (1:25)
+### DOOR TYPE ELEVATIONS (1:25)
 
 -  number and configuration of door leaves.
 - schematic setting-out of elements associated with doors e.g. door hardware, mechanical grilles, vision panels.
 
-#### DOOR DETAILS (1:5)
+### DOOR DETAILS (1:5)
 
 Generic details applicable to most doors in the schedule.
 Special conditions/specific interface details are to be shown in K series interface details.

@@ -1,9 +1,9 @@
 ---
 title: "G - Internal Spaces (Room Layouts)"
 ---
-**Drawings: A600-A699**
-**(Alphabet Drawings: A.G.01-A.G.99)**
-### INTERNAL SPACES - PLANS (1:50, 1:25)
+**Classic Drawings: A600-A699**
+**Alphabet Drawings: A.G.01-A.G.99**
+## INTERNAL SPACES - PLANS (1:50, 1:25)
 
 Used to graphically describe rooms which can not be adequately scheduled in the [F - Floor, Wall and Ceiling Finishes](content/notes/1_Documentation%20Codex/1b_Alphabet/F%20-%20Floor,%20Wall%20and%20Ceiling%20Finishes.md) series room schedule, e.g. lobby, foyer, atrium, banquet room, reception, meeting room, staff station, auditorium, hotel rooms, etc.
 
@@ -23,7 +23,7 @@ Other items that may be shown on these layouts
 - Section references referring to [K - Interface Details](content/notes/1_Documentation%20Codex/1b_Alphabet/K%20-%20Interface%20Details.md)
 - Detail markers referring to [K - Interface Details](content/notes/1_Documentation%20Codex/1b_Alphabet/K%20-%20Interface%20Details.md)
 
-### INTERNAL SPACES - REFLECTED CEILING PLANS  (1:50, 1:25)
+## INTERNAL SPACES - REFLECTED CEILING PLANS  (1:50, 1:25)
 
 - Codes describing ceiling finishes (and substrates where appropriate)
 - Codes describing ceiling mounted fixtures, fittings and equipment.
@@ -31,7 +31,7 @@ Other items that may be shown on these layouts
 - Vertical dimensions and setting-out other than already done in 1:100 E series.
 - Vertical dimensions and setting-out of fixtures, accessories, sanitary- and tapware
 
-### INTERNAL SPACES - INTERNAL ELEVATIONS (1:50, 1:25)
+## INTERNAL SPACES - INTERNAL ELEVATIONS (1:50, 1:25)
 
 - Codes describing wall finishes (and substrates where appropriate)
 - Codes describing wall mounted fixtures, fittings and equipment.

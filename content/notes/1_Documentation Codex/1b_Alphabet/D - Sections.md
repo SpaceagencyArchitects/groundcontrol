@@ -1,12 +1,12 @@
 ---
 title: "D - Sections"
 ---
-**Drawings: A301-A350**
-**(Alphabet Drawings: A.D.01-A.D.50)**
-### SECTIONS (1:100)
+**Classic Drawings: A301-A350**
+**Alphabet Drawings: A.D.01-A.D.50**
+## SECTIONS (1:100)
 
-**Drawing Subset: A301-A350**
-**(Alphabet Drawing Subset: A.D.01-A.D.50)**
+**Classic Drawing Subset: A301-A350**
+**Alphabet Drawing Subset: A.D.01-A.D.50**
 
 - Grid lines
 - Finished floor level benchmarks
@@ -18,10 +18,10 @@ title: "D - Sections"
 Note:
 On smaller projects 1:100 sections may be omitted altogether in favour of 1:50 sections.
 
-### SECTIONS (1:50)
+## SECTIONS (1:50)
 
-**Drawing Subsets: A351-A399**
-**(Alphabet Drawing Subset: A.D.51-A.D.99)**
+**Classic Drawing Subsets: A351-A399**
+**Alphabet Drawing Subset: A.D.51-A.D.99**
 
 - Grid lines
 - Finished floor level benchmarks

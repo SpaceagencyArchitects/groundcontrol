@@ -1,10 +1,10 @@
 ---
 title: "K - Interface Details"
 ---
-**Drawings: A501-599***
-**(Alphabet Drawings: A.K.01-A.K.99)**
+**Classic Drawings: A501-599***
+**Alphabet Drawings: A.K.01-A.K.99**
 
-### INTERFACE DETAILS (1:10, 1:5)
+## INTERFACE DETAILS (1:10, 1:5)
 
 Interface details describe the way various building elements (partitions, floors, ceilings, external wall, joinery, etc.) meet at the junctions.
 

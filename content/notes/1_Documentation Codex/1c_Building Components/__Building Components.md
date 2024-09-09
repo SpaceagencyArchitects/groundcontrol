@@ -1,5 +1,5 @@
 ---
-title: "1c Building Components"
+title: Building Components
 ---
 This section outlines how and where building components should be identified and described. Each section includes a list of information that should be included, and in which drawing group in the SpA Alphabet it belongs.
 

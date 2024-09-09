@@ -1,3 +1,6 @@
+---
+title: Documentation Codex
+---
 
 An outline of how we document projects.
 

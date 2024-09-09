@@ -1,8 +1,8 @@
 ---
 title: "A - Introductory documents"
 ---
-**Drawings: A000-A099**
-**(Alphabet Drawings: A.A.01-A.A.99)**
+**Classic Drawings: A000-A099**
+**Alphabet Drawings: A.A.01-A.A.99**
 ## COVER SHEET
 
 -   Project name

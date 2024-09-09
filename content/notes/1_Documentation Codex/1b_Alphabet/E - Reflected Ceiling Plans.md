@@ -1,9 +1,9 @@
 ---
 title: "E - Reflected Ceiling Plans"
 ---
-**Drawings: A141-A199**
-**(Alphabet Drawings: A.E.01-A.E.99)**
-### REFLECTED CEILING PLANS 1:100
+**Classic Drawings: A141-A199**
+**Alphabet Drawings: A.E.01-A.E.99**
+## REFLECTED CEILING PLANS 1:100
 
 
 - Doors, only if full height

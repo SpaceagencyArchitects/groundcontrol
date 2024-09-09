@@ -1,10 +1,10 @@
 ---
 title: "U - Demolition"
 ---
-**Drawings: A###-A###**
-**(Alphabet Drawings: A.U.01-A.U.99)**
+**Classic Drawings: A###-A###**
+**Alphabet Drawings: A.U.01-A.U.99**
 
-### DEMOLITION PLANS 1:100
+## DEMOLITION PLANS 1:100
 
 -   Grid lines
 -   Existing plans

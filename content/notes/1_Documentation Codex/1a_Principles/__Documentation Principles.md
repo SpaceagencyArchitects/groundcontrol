@@ -1,5 +1,5 @@
 ---
-title: "1a Principles"
+title: Documentation Principles
 ---
 # Benefits of Following the SpA Documentation Approach
 

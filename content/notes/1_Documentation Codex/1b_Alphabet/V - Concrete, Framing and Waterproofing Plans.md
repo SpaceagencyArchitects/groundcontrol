@@ -1,10 +1,10 @@
 ---
 title: "V - Concrete and Waterproofing Plans"
 ---
-**Drawings: A120-A139**
-**(Alphabet Drawings: A.V.01-A.V.99)**
+**Classic Drawings: A120-A139**
+**Alphabet Drawings: A.V.01-A.V.99**
 
-### CONCRETE AND WATERPROOFING PLANS 1:100
+## CONCRETE AND WATERPROOFING PLANS 1:100
 
 -   Grid lines
 -   Setdowns
@@ -23,7 +23,7 @@ title: "V - Concrete and Waterproofing Plans"
 -   Section symbols referring to K series 1:10 or 1:5 details of intricate edge conditions
 -   Internal elevation symbols referring to V series 1:50 concrete elevations (if applicable)
 
-### CONCRETE SLAB REFLECTED CEILING PLANS 1:100
+## CONCRETE SLAB REFLECTED CEILING PLANS 1:100
 
 Depending on the configuration of the building, there may be a requirement for showing areas of underside of concrete slab that need thermal insulation.
 
@@ -32,7 +32,7 @@ Depending on the configuration of the building, there may be a requirement for s
 -   Movement/building joints
 -   Thermal insulation codes showing areas to be insulated
 
-### CONCRETE SETTING-OUT ELEVATIONS 1:50
+## CONCRETE SETTING-OUT ELEVATIONS 1:50
 
 Only if required - e.g. mechanical penetrations through concrete core wall and similar.
 
@@ -42,7 +42,7 @@ Only if required - e.g. mechanical penetrations through concrete core wall and s
 -   Horizontal and vertical dimensions from grid lines and above SSL
 -   Internal elevation symbols referring to other 1:50 concrete elevations within V series
 
-### LIFT SHAFT EXTERNAL ELEVATIONS 1:50
+## LIFT SHAFT EXTERNAL ELEVATIONS 1:50
 
 -   Grid lines
 -   Floor and structural slab Level (SSL=) benchmark indicators

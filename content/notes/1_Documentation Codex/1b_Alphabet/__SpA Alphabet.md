@@ -1,5 +1,5 @@
 ---
-title: "1b SpA Alphabet"
+title: SpA Alphabet
 ---
 ## A guide to where the information belongs within the drawing set
 

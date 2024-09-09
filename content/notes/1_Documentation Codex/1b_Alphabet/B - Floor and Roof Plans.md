@@ -1,8 +1,8 @@
 ---
 title: "B - Floor and Roof Plans"
 ---
-**Drawings: A100-A149
-(Alphabet Drawings: A.B.01-A.B.99)**
+**Classic Drawings: A100-A149
+Alphabet Drawings: A.B.01-A.B.99**
 ### GENERAL ARRANGEMENT FLOOR PLANS (1:100)
 
 -   Grid lines

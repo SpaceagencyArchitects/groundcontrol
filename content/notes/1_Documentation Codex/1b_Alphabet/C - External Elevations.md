@@ -1,12 +1,12 @@
 ---
 title: "C - External Elevations"
 ---
-**Drawings: A201-A299  
-**(Alphabet Drawings: A.C.01-A.C.99)*
-### EXTERNAL ELEVATIONS (1:100)
+**Classic Drawings: A201-A299**
+**Alphabet Drawings: A.C.01-A.C.99**
+## EXTERNAL ELEVATIONS (1:100)
 
-**Drawing Subset: A201-A250**  
-**(Alphabet Drawing Subset: A.C.01-A.C.50)*
+**Classic Drawing Subset: A201-A250**
+**Alphabet Drawing Subset: A.C.01-A.C.50**
 
 - Grid lines
 - Finished floor level benchmarks
@@ -23,8 +23,8 @@ title: "C - External Elevations"
 
 ## DETAILED SET-OUT ELEVATIONS, WITH ASSOCIATED PLANS AND SECTIONS (1:50)
 
-**Drawing Subsets: A251-A299**
-**(Alphabet Drawing Subsets: A.C.51-A.C.99**
+**Classic Drawing Subsets: A251-A299**
+**Alphabet Drawing Subsets: A.C.51-A.C.99**
 
 Nested arrangement of elevation, associated plan(s) and section(s) at 1:50, showing typical and special conditions of the façade. 
 Includes cladding, windows, curtain walling, shopfronts, roofing. 
