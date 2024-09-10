@@ -10,9 +10,9 @@ _American Institute of Architects (AIA) Document A201-2007 – General_
 
 # Schedules
 
-The _architectural drawing set_ includes ‘assembly of elements’ schedules, e.g. door schedule and the room (finishes) schedule.
+The _architectural drawing set_ includes ‘assembly of elements’ schedules, e.g. door schedule and room (finishes) schedules.
 
-They are printed on the same size paper as the rest of the set and include the SpA title block, drawing name and revision column.
+They are typically printed on the same size paper as the rest of the documentation set and include the SpA title block, drawing name and revision column.
 
 # Specifications
 
@@ -30,7 +30,7 @@ _Non-technical_: e.g. scope of work, delivery of materials, samples and shop dra
 
 # Say It Once
 
-Provide a piece of information as few times as possible and only in the agreed place. Ideally only once within the Architectural Drawing Set. On a drawing or in a schedule.
+Provide a piece of information as few times as possible and only in the agreed place - ideally only once within the architectural drawing set, on a drawing or in a schedule.
 
 Do not repeat specifications in the drawing set.
 

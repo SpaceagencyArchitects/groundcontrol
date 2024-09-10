@@ -8,7 +8,7 @@ Use generic material and system descriptions (e.g.‘lining’, ‘ceiling’, �
 
 # WRITING STYLE
 
-It is very important to apply consistent writing style, with particular attention to wording and consistent use of terms.
+Apply consistent writing style, with particular attention to wording and consistent use of terms.
 
 For the vast majority of written description of the building elements, we use combinations of the generic names (CLADDING, FLOORING, UPHOLSTERY), systems and materials codes (EWS- 3, FL-3, UP-5), descriptors (PAINTED, FIXED) and the finishes codes (PT-4, COL-1) 
 
@@ -16,19 +16,18 @@ Write instructions in simple, clear, direct short sentences, following the princ
 
 # ABBREVIATIONS AND CODES
 
-Use abbreviations as long as they are listed on the legend sheet. Use the legend sheet codes for describing systems, materials and finishes.
+Use abbreviations only as they are listed on the legend sheet. Use the legend sheet codes for describing systems, materials and finishes.
 
 # FONT SIZE
 
-The minimum recommended height of the characters is 2.0mm when printed at full size. Detail titles should be 3.5mm high. The general rule is that the text has to remain legible (without a magnifying glass) when reduced to half size.
+The minimum font size is 2.0mm when printed at full size. Detail titles should be 3.5mm high. The general rule is that the text has to remain legible (without a magnifying glass) when reduced to half size.
 
 # TEXT ORIENTATION
 
 To maintain legibility and uniformity, any text on a drawing has to be either horizontal or rotated 90° counterclockwise:
 
 ![04-image](notes/1_Documentation%20Codex/1a_Principles/assets/04-image.svg)
-
-#### DO NOT ADD NOTES SUCH AS ‘AS SPECIFIED’, ‘AS SCHEDULED’ OR ‘REFER TO ENGINEERS DETAILS’
+# DO NOT ADD NOTES SUCH AS ‘AS SPECIFIED’, ‘AS SCHEDULED’ OR ‘REFER TO ENGINEERS DETAILS’
 
 Every component of the project is either specified or scheduled or documented by other consultants. Notes like that are redundant and potentially hazardous, as the works may be missing from other documents.
 

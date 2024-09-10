@@ -14,6 +14,7 @@ It eradicates the need to reinvent the rules.
 Naming conventions are consistent throughout the set.
 In the general storyboard, sheets of details (a scale larger than **1:20**) are only numbered and inserted into the set.
 
+The starting point for the storyboard of every project is the default layout set in the current ArchiCAD template. Depending on the size of the project, the storyboard can use the Classic or Alphabet numbering system.
 # Planning
 
 Plan the documentation process
@@ -28,7 +29,7 @@ Do not mix the sizes of paper within the set.
 
 # The General Storyboard
 
-Break the drawing set into drawing groups as per the SpA Alphabet. Design the storyboard at A3 size. This becomes the skeleton of your future drawing set. The General storyboard is produced by a team leader or technical coordinator, not by team members in isolation.
+Break the drawing set into drawing groups as per the SpA Alphabet. Design the storyboard at the required paper size. This becomes the skeleton of your future drawing set.
 
 # Detailed Building Component Storyboard
 
