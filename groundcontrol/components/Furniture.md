@@ -1,6 +1,6 @@
 # Furniture  
   
-## [A60 - Internal Spaces (Room Layouts)] (A60 - Internal Spaces (Room Layouts).md) / Furnished Plans (1:100)  
+## [A60 - Internal Spaces (Room Layouts)](groundcontrol/A60 - Internal Spaces (Room Layouts).md) / Furnished Plans (1:100)  
 * Furniture items coded, using codes listed in L series legend  
   
 ###   
