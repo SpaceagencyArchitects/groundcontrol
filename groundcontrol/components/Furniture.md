@@ -9,7 +9,7 @@
 * Spreadsheet listing codes and generic description of items   
   
   
-## [[A80 - Schedules](../groundcontrol/A80%20-%20Schedules.md)]] / FF&E  
+## [[A80 - Schedules]] / FF&E  
 * Standalone A4 document, providing full description of the furniture items   
   
 ## [[Z - Specifications]]
