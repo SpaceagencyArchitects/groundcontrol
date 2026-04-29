@@ -1,0 +1,17 @@
+{
+  "name": "groundcontrol",
+  "version": "1.0.0",
+  "description": "spaceagency's documentation codex as a Claude skill. Reference for what information goes where in an architectural construction documentation set: drawing series, building components, ArchiCAD detail workflows, drafting principles, and the spA voice for annotations.",
+  "author": {
+    "name": "spaceagency id architects"
+  },
+  "keywords": [
+    "architecture",
+    "documentation",
+    "construction-drawings",
+    "archicad",
+    "spaceagency",
+    "drawing-set"
+  ],
+  "license": "see LICENSE"
+}
