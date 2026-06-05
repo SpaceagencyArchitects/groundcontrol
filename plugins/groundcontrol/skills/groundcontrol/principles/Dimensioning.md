@@ -1,7 +1,7 @@
 # Dimensioning  
 
 ## Use Grids and Centre Lines  
-Allow the building to ‘dimension itself’ as much as possible.  
+Allow the building to 'dimension itself' as much as possible.  
 ## Priority Dimensioning and Open Dimensions  
 Concentrate on critical dimensions (e.g. width of escape corridor). Leave non-critical dimension out of the dimension string.  
 ## Expression of Levels  
@@ -20,7 +20,7 @@ Spot levels are used to indicate required or existing levels for a specific poin
 ![](Dimensioning/E09FBD73-BDCD-4B8E-BED0-49E1604B21AE.png)  
   
 ### Restrict the Use of RLs  
-Use relative heights ‘above finished floor level’ (AFFL) e.g. dimension the height of a handrail in millimetres.  
+Use relative heights 'above finished floor level' (AFFL) e.g. dimension the height of a handrail in millimetres.  
   
 ## Identify Dimensions Which Are Not Known  
 Dimensions to be determined during the construction  
@@ -32,7 +32,6 @@ Do not dimension structural opening for doors and windows.
 Use descriptions like ALIGN or MATCH THE HEIGHT OF EXISTING ARCHITRAVE , do not rely on dimensions only  
   
 ## Clarity  
-Do not describe a dimension as ‘nominal’. If it is of importance, state MINIMUM or MAXIMUM.  
-  
+Do not describe a dimension as 'nominal'. If it is of importance, state MINIMUM or MAXIMUM.  
 
-#groundcontrol #groundcontrol/principles 
+#groundcontrol #groundcontrol/principles

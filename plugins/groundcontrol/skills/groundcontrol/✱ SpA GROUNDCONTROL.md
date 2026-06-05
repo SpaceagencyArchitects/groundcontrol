@@ -12,34 +12,31 @@ It helps with:
 * Better project outcomes  
   
 ### Guides Not Rules  
-There are many facets to construction documentation and many aspects which influence the way the construction documentation set will evolve. The project and contract type, builder’s preferences, consultant’s preferences, will all play a part in the sculpting of the document. Adjustments to suit a particular project are inevitable.  
+There are many facets to construction documentation and many aspects which influence the way the construction documentation set will evolve. The project and contract type, builder's preferences, consultant's preferences, will all play a part in the sculpting of the document. Adjustments to suit a particular project are inevitable.  
 The decision to depart from the SpA documentation format is at the discretion of the project leader and will depend on the requirements of the project.  
 Concepts outlined in this document are principles, not rigid rules. They provide a base line for tested and efficient ways of completing the project documentation tasks.  
-  
-[[Allocation of Information]]
-[[Documentation Planning Storyboarding]]
-[[Drawing and Describing Architectural Entities]]
+
+[[Introduction to Construction Documentation]]
 [[Sheet Numbering]]
 [[Referencing]]
-[[Scales]]
-[[Drawing Graphics]]
-[[Legend Sheet]]
+[[Allocation of Information]]
+[[Classification and Properties]]
+[[Tagging of Elements in ArchiCAD]]
 [[Abbreviations and Codes]]
-[[Drafting]]
-[[Annotations]]
 [[Dimensioning]]
+
 
 ## Drawing Series  
 Drawings are broken up into series. Each series contains certain types of information, and is grouped either by scale (**1:100**, **1:50**, etc.), type (elevation, section, etc.), location (core, auditorium, etc.), element (stair, lift, etc.), or by any combination of the criteria best suited for the purpose of describing the building.  
   
-The drawing scales assigned to each series are prescriptive. If a portion of the drawing (e.g. at **1:100**) becomes graphically too heavy due to small rooms and the required amount of description, draw an ‘enlarged area reference box’, do not show any description within the box at **1:100**, and show description items on a **1:50** detail drawing.  
+The drawing scales assigned to each series are prescriptive. If a portion of the drawing (e.g. at **1:100**) becomes graphically too heavy due to small rooms and the required amount of description, draw an 'enlarged area reference box', do not show any description within the box at **1:100**, and show description items on a **1:50** detail drawing.  
 
 [[A00 - Introductory documents]]
 A02 - Demolition
 [[A10 - Floor and Roof Plans]]
 [[A12 - Concrete and Waterproofing Plans]]
 [[A14 - Reflected Ceiling Plans]]
-[[A16 - Lightning and Power Plans]]
+[[A16 - Lighting and Power Plans]]
 [[A20 - External Elevations]]
 [[A30 - Sections]]
 [[A40 - Cores, Stairs and Lifts]]
@@ -53,33 +50,9 @@ A02 - Demolition
 
 [[Z - Specifications]]
 
-## Building Components  
-This section outlines how and where building components should be identified and described. Each section includes a list of information that should be included, and in which drawing series it belongs.  
-
-[[Ceilings]]
-[[Concrete Setting out and Waterproofing]]
-[[Demolition]]
-[[Doors]]
-[[External Wall Systems]]
-[[Floors]]
-[[Furniture]]
-[[Joinery]]
-[[Landscaping and External Works]]
-[[Lifts]]
-[[Metalwork]]
-[[Partitions]]
-[[Roof and Roofing Systems]]
-[[Signage]]
-[[Stairs]]
-[[Wall Finishes]]
-[[Wall Protection]]
-[[Wet Areas]]
-[[Windows]]
-
 ## ArchiCAD Workflows
 This section outlines typical workflows and methods within ArchiCAD
 [[WF50 Details]]
-[[Classification and Properties]]
-[[Keynotes]]
+[[Hotlink Attribute Management]]
 
-#groundcontrol #index
+#groundcontrol #groundcontrol/archicad #index

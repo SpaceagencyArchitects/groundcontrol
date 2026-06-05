@@ -20,7 +20,7 @@ Door elevations, typically at 1:50, visually describe each door type used in the
 Door type elevations can be generated using  
 * interactive schedule  
 * 2D drawings on a worksheet or   
-* ‘live’ elevations of door using the elevation tool  
+* 'live' elevations of door using the elevation tool  
   
 ### Part 2: Door Type Schedule  
 A tabular schedule of every door in the project, used to describe the door, it performance requirements and specific hardware items.  
@@ -41,9 +41,12 @@ Mortice latch and deadbolt, lever handle operation, keyed to corridor side, thum
 Fire-rated mortice lockset with latch and deadbolt, lever handle operation, free egress without key, suitable for integration with access control.
 ```
   
-**Rule of Thumb:** **If a competent hardware consultant can code it correctly without calling you, you’ve given the right amount of detail.**  
+**Rule of Thumb:** **If a competent hardware consultant can code it correctly without calling you, you've given the right amount of detail.**  
 Too little detail → RFIs  
 Too much detail → unintended specification liability.
+
+Reference — mortice lock functions:  
+[Mortice lock function chart](A70%20-%20Doors%20and%20Windows/mortice-lock-function-chart.pdf)<!-- {"embed":"true", "preview":"true"} -->
 
 #### Typical Content:  
 * Storey [use on larger projects only]  
@@ -86,7 +89,7 @@ Generic details applicable to most doors in the schedule are documented in the A
 Special conditions/specific interface details are to be shown in [[A50 - Interface Details]].   
 Typically include details of internal doors only. External doors are described in [[A20 - External Elevations]] and [[A50 - Interface Details]]s.  
   
-* Dimensions describing the geometry of door frames - all other variables e.g. partition thickness indicate as ‘VARIES’  
+* Dimensions describing the geometry of door frames - all other variables e.g. partition thickness indicate as 'VARIES'  
 * Dimensions and description of vision panels, grilles and similar  
   
 ## WINDOW SCHEDULE  
@@ -111,7 +114,7 @@ Window elevations (1:50) visually describe each window type used in the project 
 Window type elevations can be generated using  
 * interactive schedule showing the elevation and other content in tabular form. If choosing this option, the scheduled content is incorporated into this schedule;
 * 2D drawings with annotations or, requires a seperate interactive schedule for scheduled content; or
-* ‘live’ elevations with annotations, requires a seperate interactive schedule for scheduled content.
+* 'live' elevations with annotations, requires a seperate interactive schedule for scheduled content.
 
 ### Part 2: Window Schedule  
 A tabular schedule of every window type listing its location(s) in the project.  
@@ -122,8 +125,6 @@ A tabular schedule of every window type listing its location(s) in the project.
 - Location (building, storey)
 - Quantity  
 
-
-  
 ## Examples:  
 [Sample dw schedule 1.pdf](A70%20-%20Doors%20and%20Windows/Sample%20dw%20schedule%201.pdf)<!-- {"embed":"true", "preview":"true"} -->
 [Sample dw schedule 2.pdf](A70%20-%20Doors%20and%20Windows/Sample%20dw%20schedule%202.pdf)<!-- {"embed":"true", "preview":"true"} -->
@@ -135,5 +136,7 @@ Legends:
 ![](A70%20-%20Doors%20and%20Windows/IMG_5279.png)
 ![](A70%20-%20Doors%20and%20Windows/IMG_5278.png)
 
+---
+**See also:** [[Tagging of Elements in ArchiCAD]] for door and window element ID and type conventions; [[Classification and Properties]] for ArchiCAD interactive schedule setup.
 
-#groundcontrol
+#groundcontrol #groundcontrol/drawing-series

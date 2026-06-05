@@ -16,5 +16,4 @@ Note:
 ## What does not work?
 - Once a file has been hotlinked into another project, ArchiCAD creates a new attributes in the host file for any new attribute in the source file. Subsequently, attributes in the host file are not updated if they are changed in the source file. The attribute manager must be used to sync changes.
 
-
-#groundcontrol/archicad
+#groundcontrol #groundcontrol/archicad

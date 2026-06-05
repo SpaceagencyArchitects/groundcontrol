@@ -41,4 +41,7 @@ Other items that may be shown on these layouts
 * setting our points  
 * Detail markers referring to [[A50 - Interface Details]] and [[A65 - Joinery]] detail drawings  
 
-#groundcontrol 
+---
+**See also:** [[Tagging of Elements in ArchiCAD]] for element coding conventions used in room layouts — finishes codes, joinery types, wall protection and sanitary fixtures.
+
+#groundcontrol #groundcontrol/drawing-series

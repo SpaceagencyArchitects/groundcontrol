@@ -19,7 +19,7 @@
 - Joinery codes (If showing joinery at 1:100 makes drawing graphically heavy, do not show here. Create a 1:100 subset of general arrangement joinery drawings in A60 - Internal Spaces (Room Layouts))  
 - Wayfinding signage - free standing and wall hung; show codes and setting-out dimensions  
 - Stair numbers, lift numbers, escalator numbers  
-- ‘Enlarged area boxes’ referring to 1:50 enlarged plans in B series if required (Do not show any description inside the box at 1:100 scale. Only applicable if an area of floor plan becomes graphically heavy at 1:100)  
+- 'Enlarged area boxes' referring to 1:50 enlarged plans in [[A60 - Internal Spaces (Room Layouts)]] if required (Do not show any description inside the box at 1:100 scale. Only applicable if an area of floor plan becomes graphically heavy at 1:100)  
 - Main section references to 1:100 sections in A30 - Sections  
 - External elevation references to 1:100 elevations in A20 - External Elevations  
 - Ramp falls  
@@ -27,7 +27,7 @@
 - Graphical differentiation between the existing structure and the new build  
 - Graphical differentiation between concrete and the other types of partition  
 - Architectural metalwork systems codes (If showing metalwork at 1:100 makes drawing graphically heavy, do not show here, create a 1:100 subset of general arrangement metalwork drawings in A45 - Metalwork, External Works)  
-  
+
 ### ROOF PLANS (1:100)  
 - Grid lines  
 - Ridge/parapet levels  
@@ -39,9 +39,12 @@
 - Catwalks/access systems/roof maintenance tracks/ladders/metalwork/ abseiling anchor rails and similar items codes  
 - Architectural metalwork systems codes  
 - Fall arrest systems codes  
-- Main section references to 1:100 sections in D series drawings  
-- External elevation references to 1:100 elevations in C series drawings  
+- Main section references to 1:100 sections in [[A30 - Sections]]  
+- External elevation references to 1:100 elevations in [[A20 - External Elevations]]  
 - Critical dimensions and setting-out  
 - Graphical differentiation between the existing structure and the new build  
 
-#groundcontrol 
+---
+**See also:** [[Tagging of Elements in ArchiCAD]] for element coding conventions used on plans — partition types, door numbers, joinery codes and finishes codes.
+
+#groundcontrol #groundcontrol/drawing-series

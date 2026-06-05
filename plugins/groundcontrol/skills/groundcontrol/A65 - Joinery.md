@@ -11,9 +11,12 @@ Include:
 Required only if not possible to show and code joinery items in [[A60 - Internal Spaces (Room Layouts)]]. Where relevant, show joinery items in the context of other elements - floor, partition, ceiling.  
 - Dimensions  
 - Description of joinery items using materials, systems and finishes codes  
-- ‘Enlarged area boxes’ referring to 1:2 and 1:1 scale details.  
+- 'Enlarged area boxes' referring to 1:2 and 1:1 scale details.  
 ## JOINERY DETAILS (1:2, 1:1)  
 - Dimensions  
 - Detail description using materials, systems and finishes codes  
 
-#groundcontrol 
+---
+**See also:** [[Tagging of Elements in ArchiCAD]] for joinery type and finish coding conventions (JN and JF codes).
+
+#groundcontrol #groundcontrol/drawing-series

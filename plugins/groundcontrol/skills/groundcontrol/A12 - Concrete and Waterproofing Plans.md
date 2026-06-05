@@ -14,10 +14,10 @@
 - Graphic representation and waterproofing codes - to slab on ground areas and to wet areas  
 - Services penetrations - mechanical, electrical, hydraulic  
 - Horizontal dimensions of slab edges, penetrations, door openings and similar, from grid lines  
-- ‘Enlarged area boxes’ referring to V series 1:50 plans (if required)  
-- ‘Enlarged area boxes’ referring to H series 1:50 plans for stairs setting-out and details  
-- Section symbols referring to K series 1:10 or 1:5 details of intricate edge conditions  
-- Internal elevation symbols referring to V series 1:50 concrete elevations (if applicable)  
+- 'Enlarged area boxes' referring to 1:50 enlarged plans within this series (if required)  
+- 'Enlarged area boxes' referring to [[A40 - Cores, Stairs and Lifts]] 1:50 plans for stairs setting-out and details  
+- Section symbols referring to [[A50 - Interface Details]] 1:10 or 1:5 details of intricate edge conditions  
+- Internal elevation symbols referring to concrete setting-out elevations within this series (if applicable)  
   
 ## CONCRETE SLAB REFLECTED CEILING PLANS 1:100  
 Depending on the configuration of the building, there may be a requirement for showing areas of underside of concrete slab that need thermal insulation.  
@@ -34,13 +34,12 @@ Only if required - e.g. mechanical penetrations through concrete core wall and s
 - Floor and Structural Slab Level (SSL=) benchmark indicators  
 - Finished Screed Level (FSL=) benchmark indicators  
 - Horizontal and vertical dimensions from grid lines and above SSL  
-- Internal elevation symbols referring to other 1:50 concrete elevations within V series  
+- Internal elevation symbols referring to other 1:50 concrete elevations within this series  
   
 ## LIFT SHAFT EXTERNAL ELEVATIONS 1:50  
 - Grid lines  
 - Floor and structural slab Level (SSL=) benchmark indicators  
 - Finished screed level (FSL=) benchmark indicators  
 - Vertical dimensions above structural slab level (SSL) defining the size of penetrations required for lift doors and controls  
-  
 
-#groundcontrol 
+#groundcontrol #groundcontrol/drawing-series
