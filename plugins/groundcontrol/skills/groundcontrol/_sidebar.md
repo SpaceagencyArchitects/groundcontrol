@@ -40,6 +40,9 @@
   - [WF50.7 — Layout Techniques](archicad/WF50.7%20Detail%20Layout%20Techniques.md)
   - [ArchiCAD Toolbox Sessions](archicad/ArchiCAD%20Toolbox%20sessions.md)
 
+- **Protocol**
+  - [AI Usage Policy](protocol/AI%20Usage%20Policy.md)
+
 - **Tips**
   - [FFE Guide](tips/Fittings%2C%20fixtures%2C%20furniture%20and%20equipment.md)
   - [Documentation Checklist](tips/spA%20documentation%20%20checklist.md)
