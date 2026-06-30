@@ -31,13 +31,6 @@
   - [Classification and Properties](archicad/Classification%20and%20Properties.md)
   - [Hotlink Attribute Management](archicad/Hotlink%20Attribute%20Management.md)
   - [WF50 — Detail Workflows](archicad/WF50%20Details.md)
-  - [WF50.1 — Model Based](archicad/WF50.1%20Model%20based%20detail%20with%20viewpoint.md)
-  - [WF50.2 — 3D Document](archicad/WF50.2%203D%20Document%20Detail.md)
-  - [WF50.3 — Drawn Independent](archicad/WF50.3%20Drawn%20Independent%20Detail.md)
-  - [WF50.4 — Drawn Copy](archicad/WF50.4%20Drawn%20Copy%20of%20Detail%20with%20Source%20Marker.md)
-  - [WF50.5 — Standard / External](archicad/WF50.5%20Standard%20Detailing%20and%20External%20Details.md)
-  - [WF50.6 — Numbering](archicad/WF50.6%20Numbering%20and%20Naming%20Details.md)
-  - [WF50.7 — Layout Techniques](archicad/WF50.7%20Detail%20Layout%20Techniques.md)
   - [ArchiCAD Toolbox Sessions](archicad/ArchiCAD%20Toolbox%20sessions.md)
 
 - **Protocol**
@@ -45,4 +38,4 @@
 
 - **Tips**
   - [FFE Guide](tips/Fittings%2C%20fixtures%2C%20furniture%20and%20equipment.md)
-  - [Documentation Checklist](tips/spA%20documentation%20%20checklist.md)
+  - [Documentation Tips](tips/spA%20documentation%20%20tips.md)
