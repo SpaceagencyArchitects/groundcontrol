@@ -1,18 +1,18 @@
 {
   "name": "groundcontrol",
   "owner": {
-    "name": "spaceagency id architects"
+    "name": "spaceagency"
   },
   "metadata": {
     "description": "spaceagency's documentation codex (GROUNDCONTROL) — a Claude skill that guides spA staff through construction documentation: where information belongs in the drawing set, how to set up a documentation storyboard, ArchiCAD detail workflows, and how to write annotations in the spA voice.",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   "plugins": [
     {
       "name": "groundcontrol",
       "source": "./plugins/groundcontrol",
       "description": "spaceagency's documentation codex as a Claude plugin. Provides quick lookups (component → sheets, sheet → contents), guided workflows (project documentation setup, detail strategy chooser, write in spA voice, pre-issue review), and access to the full reference codex.",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "category": "documentation",
       "keywords": [
         "architecture",
