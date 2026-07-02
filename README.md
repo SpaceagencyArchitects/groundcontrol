@@ -4,6 +4,8 @@
 
 GROUNDCONTROL is the practice's reference for what information goes where in a construction documentation set. This repository serves it as a Claude Code plugin, so any spA staff member can install it once and have it available across all their conversations with Claude.
 
+A browsable version of the codex is available at **[spaceagencyarchitects.github.io/groundcontrol](https://spaceagencyarchitects.github.io/groundcontrol)**.
+
 ---
 
 ## Install (Claude Code)
@@ -46,7 +48,7 @@ After install, the skill activates automatically when you ask anything that touc
 - "Where do I document the wall finishes?"
 - "What goes on A50?"
 - "I'm setting up the drawing set for a new project — walk me through it."
-- "Should this detail be a WF50.1 or a WF50.3?"
+- "Should this be a model-based or drawn independent detail?"
 - "Can you review this drawing note?"
 - "Run the pre-issue checklist over this sheet."
 
@@ -57,7 +59,9 @@ For the full set of triggers and workflows, see `plugins/groundcontrol/skills/gr
 ## Repository structure
 
 ```
-groundcontrol/                                 ← repo root = marketplace
+groundcontrol/                                 ← repo root = marketplace + Docsify site
+├── index.html                                  ← Docsify entry point (GitHub Pages)
+├── .nojekyll                                   ← disables Jekyll processing
 ├── .claude-plugin/
 │   └── marketplace.json                        ← marketplace catalog
 ├── plugins/
@@ -67,27 +71,39 @@ groundcontrol/                                 ← repo root = marketplace
 │       └── skills/
 │           └── groundcontrol/                  ← the skill itself
 │               ├── SKILL.md                    ← entry point + lookup tables + workflows
+│               ├── _sidebar.md                 ← Docsify navigation
 │               ├── ✱ SpA GROUNDCONTROL.md      ← codex index
-│               ├── A00 ... A80 .md             ← drawing series files
+│               ├── A00 ... A80.md              ← drawing series
 │               ├── Z - Specifications.md
 │               ├── principles/                 ← drafting fundamentals
-│               ├── components/                 ← building elements
-│               ├── archicad/                   ← ArchiCAD workflows (WF50.1–.4, keynotes, hotlinks)
-│               └── tips/                       ← checklists
+│               ├── archicad/                   ← ArchiCAD workflows and tagging
+│               ├── protocol/                   ← practice policies (AI usage etc)
+│               └── tips/                       ← tips and checklists
 ├── README.md
 └── LICENSE
 ```
 
 ## Maintaining the codex
 
-The skill reads the codex `.md` files as bundled reference content. To improve the skill's behaviour:
+The Bear notes tagged `#groundcontrol` are the source of truth. The repo is kept in sync manually:
 
-- **Add or edit a codex entry** → just edit the relevant file in `plugins/groundcontrol/skills/groundcontrol/`. No SKILL.md change needed; Claude picks up the change next time the skill loads.
+- **Edit content** → update the note in Bear, then sync to the matching `.md` file in `plugins/groundcontrol/skills/groundcontrol/`.
+- **Add a new note** → create the Bear note with the appropriate `#groundcontrol` sub-tag, write the file to the correct subfolder, add it to `_sidebar.md`.
+- **Delete a note** → delete from Bear, `git rm` the file, remove from `_sidebar.md`.
 - **Add a new lookup category** (e.g. a new component, a new sheet series) → also add a row to the lookup tables in `SKILL.md`.
-- **Change a workflow** → edit the relevant section in `SKILL.md`.
 - **Bump the version** when changes warrant a re-pull from staff: update `version` in both `.claude-plugin/marketplace.json` and `plugins/groundcontrol/.claude-plugin/plugin.json`. Then push. Staff run `/plugin marketplace update groundcontrol`.
 
-Note: if `version` is omitted in either manifest, Claude Code treats every commit as a new version — fine for actively-developed internal use, less ideal once the codex stabilises.
+## Docsify (web site)
+
+The codex is published as a static site via GitHub Pages using [Docsify](https://docsify.js.org). No build step — Docsify renders the markdown files directly from the repo.
+
+To preview locally:
+```bash
+npx docsify-cli serve .
+```
+Then open [http://localhost:3000](http://localhost:3000).
+
+To remove the site: `git rm index.html .nojekyll plugins/groundcontrol/skills/groundcontrol/_sidebar.md` and disable GitHub Pages in repo settings.
 
 ## Validation before pushing
 
