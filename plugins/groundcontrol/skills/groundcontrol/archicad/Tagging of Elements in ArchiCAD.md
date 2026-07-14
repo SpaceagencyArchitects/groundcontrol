@@ -1,15 +1,15 @@
 # Tagging of Elements in ArchiCAD
 
-## Three Tracks
+## Three types of tags
 
 ArchiCAD uses three distinct mechanisms to tag and code building elements. Each track serves a different purpose and outputs information differently.
 
-| Track | Mechanism | Elements | Code Source | Primary Output | Naming Convention |
-|---|---|---|---|---|---|
-| **1A — Type / Construction** | Composite or Complex Profile | Wall Type · Ceiling Type · Roof Type · Flooring System | Auto-generated from `[bracket]` in composite/profile name | Code label on drawings; per-sheet + master keynote legend | `WT[E1] - External wall with timber cladding` |
-| **1B — Type / Construction** | Keynote | Wall Protection · Joinery Type · Handrail/Balustrade · Joinery Finish · Sanitary Fixture | Keynote | Code label on drawings; per-sheet + master keynote legend | `[TRM-01] - 90×18 MDF skirting` |
-| **2 — Applied Finish** | Surface attribute | Wall Finish · Paint Colour · Floor Finish | Auto-generated from `[bracket]` in surface name | Code label on drawing; manual entry in A80 schedules | `[TIL-1] - Honed white tile` |
-| **3 — Scheduled Element** | Element ID (manually set) | Door · Window · Electrical Fixture | Set manually | Interactive schedule (A70) | `123.1` (door), `W01` (window) |
+| Type | Elements | Code Source | Primary Output | Naming Convention |
+|---|---|---|---|---|
+| **1A — Composite or complex profile [CODE]** | Wall Type · Ceiling Type · Roof Type · Flooring System | Auto-generated from `[bracket]` in composite/profile name + corresponding Keynote | Code label on drawings; per-sheet + master keynote legend | `WT[E1] - External wall with timber cladding` |
+| **1B — Keynote Code** | Wall Protection · Joinery Type · Handrail/Balustrade · Joinery Finish · Sanitary Fixture | Keynote | Code label on drawings; per-sheet + master keynote legend | `[TRM-01] - 90×18 MDF skirting` |
+| **2 — Surface attribute [CODE]** | Wall Finish · Paint Colour · Floor Finish | Auto-generated from `[bracket]` in surface name + corresponding Keynote | Code label on drawing; manual entry in A80 schedules | `[TIL-1] - Honed white tile` |
+| **3 — Scheduled Element** | Door · Window · Electrical Fixture | Set manually per object + corresponding keynote | Interactive schedule (A70) | `123.1` (door), `W01` (window) |
 
 ## Keynotes
 
@@ -19,7 +19,7 @@ In ArchiCAD, each keynote is made up of the following information:
 * Description (for labels to go on drawings)
   * Scheduled element/finish — refer to schedule, typically for items labelled using code only, e.g. paint finishes, tiles, sanitary or tapware items or composites, e.g. wall types, ceilings, cladding.
   * System or complex item — detailed description to be used in label
-* Natspec reference or [[A80 - Schedules]] Number
+* a Reference to a specification section [[A80 - Schedules]] Number
 
 ## Codes
 

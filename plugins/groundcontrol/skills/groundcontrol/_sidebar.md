@@ -29,6 +29,8 @@
 - **ArchiCAD**
   - [Tagging of Elements](archicad/Tagging%20of%20Elements%20in%20ArchiCAD.md)
   - [Classification and Properties](archicad/Classification%20and%20Properties.md)
+  - [Layouts and Drawings](archicad/ArchiCAD%20layouts%20and%20drawings.md)
+  - [Revisions, Issues and Transmittals](archicad/Revisions%2C%20Issues%20and%20Transmittals.md)
   - [Hotlink Attribute Management](archicad/Hotlink%20Attribute%20Management.md)
   - [WF50 — Detail Workflows](archicad/WF50%20Details.md)
   - [ArchiCAD Toolbox Sessions](archicad/ArchiCAD%20Toolbox%20sessions.md)
