@@ -8,17 +8,31 @@ How drawing changes are recorded, revised and issued using ArchiCAD Revision Man
 
 1. **Make the change** in the model or on the layout.
 2. **Mark the change** using the Change Marker tool:
-	- Create the new change directly from the marker's settings dialog (Change ID + short description). Do not create changes in the Change Manager first — the marker does this in one step.
-	- For changes affecting multiple sheets, assign the modified **elements** to the change instead of (or as well as) placing a cloud. Every layout where those elements appear receives a new revision automatically.
-	- For **schedule pages, cover and other non-model sheets**, place a marker-head-only Change Marker (no cloud) directly on the affected layout, linked to the same change.
+
+![](Revisions%2C%20Issues%20and%20Transmittals/image.png)
+
+- Create the new change directly from the marker's settings dialog (Create new Change) or create a change in the Change Manager first, then place a change marker and link it to this change (Place linked Marker). For changes affecting multiple sheets, place a cloud on the relevant layouts and link it to the same change. Do not create a new change for each instance.
+
+> **Change Naming**
+> **Change ID**: sequential per project and per user (eg. `DW-01` for a change made by Dimmity). You will have to set this for the first change you create in a project, subsequent changes will pick up a change automatically. This avoids clashes with other users in Teamwork models.
+> **Description**: short and specific, 3-4 words max, noting what changed, not why (e.g. "Door D07 relocated").
+
+- For **schedule pages, cover and other non-model sheets**, place a marker-head-only Change Marker (no cloud) directly on the affected layout, linked to the relevant change.
+  For schedules, also place a marker on the cover page.
+
+![](Revisions%2C%20Issues%20and%20Transmittals/change%20marker%201.png)
 
 ### At issue time — project lead only
 
 3. **Issue and publish**:
-	- Open a new Issue in Revision Management.
-	- Review the auto-flagged layouts — every layout that gained a change since the last issue is already included.
-	- Close the Issue. This stamps revision IDs, updates revision histories and creates the Transmittal Set.
-	- Publish using the issue-driven publisher set (**changed layouts only**).
+   - Open a new Issue in Revision Management.
+
+   ![](Revisions%2C%20Issues%20and%20Transmittals/New%20transmittal.png)
+
+   - Review the auto-flagged layouts — every layout that has not been issued previously or gained a change since the last issue is already included. Remove any that are not ready to be transmitted.
+   - Close the Issue. This stamps revision IDs, updates revision histories and creates the Transmittal Set.
+   - Publish drawings using 'Layouts in current Transmittal Set'
+   - Publish schedules by selecting the folder of the schedule (eg. `A801 Finishes and Materials`) and use 'selected items'. This publishes all sheets and preserves pdf bookmarking.
 
 One person closes the issue per milestone. Everyone clouds; only the project lead issues.
 
@@ -31,23 +45,8 @@ One person closes the issue per milestone. Everyone clouds; only the project lea
 
 If any of these look wrong, fix the change linkage — do not overtype the values.
 
-## Change Naming
-
-- Change ID: sequential per project (e.g. `CH-014`).
-- Description: short and specific — what changed, not why (e.g. "Door D07 relocated 300 east").
-
-## One-time Template Setup
-
-Required once in the office template, not per project:
-
-- Revision ID and revision history autotext on master layouts.
-- Drawing list as a live Project Index with revision columns.
-- Publisher set configured to publish issue contents (changed layouts only).
-- Change Marker favourites: standard cloud + marker-head-only variant.
-
 ## Notes
 
-- Partial republication of the schedule PDF breaks bookmarking — the "changed layouts only" publish is what produces delta sets, pending resolution of the delta-PDF / supersession cover page approach.
 - Reference: [Graphisoft — Revision Management Workflow](https://help.graphisoft.com/AC/27/INT/_AC27_Help/070_Documentation/070_Documentation-98.htm)
 
-#groundcontrol #groundcontrol/workflows
+#groundcontrol #groundcontrol/archicad
