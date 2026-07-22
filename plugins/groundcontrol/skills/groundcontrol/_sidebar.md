@@ -34,6 +34,7 @@
   - [Hotlink Attribute Management](archicad/Hotlink%20Attribute%20Management.md)
   - [WF50 — Detail Workflows](archicad/WF50%20Details.md)
   - [ArchiCAD Toolbox Sessions](archicad/ArchiCAD%20Toolbox%20sessions.md)
+  - [ArchiCAD Fix](archicad/ArchiCAD%20fix.md)
 
 - **Protocol**
   - [AI Usage Policy](protocol/AI%20Usage%20Policy.md)
