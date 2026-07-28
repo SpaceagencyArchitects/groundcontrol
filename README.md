@@ -85,6 +85,8 @@ groundcontrol/                                 ← repo root = marketplace + Doc
 
 ## Maintaining the codex
 
+> **Full process, including the Claude-assisted Bear → GitHub → Docsify workflow and its one-time setup (Bear attachment access, push credentials), is documented in [UPDATING.md](UPDATING.md).**
+
 The Bear notes tagged `#groundcontrol` are the source of truth. The repo is kept in sync manually:
 
 - **Edit content** → update the note in Bear, then sync to the matching `.md` file in `plugins/groundcontrol/skills/groundcontrol/`.
