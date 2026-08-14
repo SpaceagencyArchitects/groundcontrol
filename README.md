@@ -60,6 +60,7 @@ For the full set of triggers and workflows, see `plugins/groundcontrol/skills/gr
 
 ```
 groundcontrol/                                 ← repo root = marketplace + Docsify site
+├── CLAUDE.md                                   ← operating guide for Claude in this repo
 ├── index.html                                  ← Docsify entry point (GitHub Pages)
 ├── .nojekyll                                   ← disables Jekyll processing
 ├── .claude-plugin/
@@ -85,15 +86,15 @@ groundcontrol/                                 ← repo root = marketplace + Doc
 
 ## Maintaining the codex
 
-> **Full process, including the Claude-assisted Bear → GitHub → Docsify workflow and its one-time setup (Bear attachment access, push credentials), is documented in [UPDATING.md](UPDATING.md).**
+> **Full process — the editing workflow, version bumping, and the publish setup (push credentials, docsify) — is documented in [UPDATING.md](UPDATING.md). Claude working in this repo should also read [CLAUDE.md](CLAUDE.md).**
 
-The Bear notes tagged `#groundcontrol` are the source of truth. The repo is kept in sync manually:
+**This repository is the source of truth for the codex.** Edit the markdown files in `plugins/groundcontrol/skills/groundcontrol/` directly — with Claude (which applies the codex's own conventions via the GROUNDCONTROL skill) or by hand in an editor like VS Code.
 
-- **Edit content** → update the note in Bear, then sync to the matching `.md` file in `plugins/groundcontrol/skills/groundcontrol/`.
-- **Add a new note** → create the Bear note with the appropriate `#groundcontrol` sub-tag, write the file to the correct subfolder, add it to `_sidebar.md`.
-- **Delete a note** → delete from Bear, `git rm` the file, remove from `_sidebar.md`.
+- **Edit content** → change the relevant `.md` file.
+- **Add a new note** → create the file in the correct place (a topic subfolder, or the skill root for a drawing series), and add it to `_sidebar.md`.
+- **Delete a note** → `git rm` the file and remove it from `_sidebar.md`.
 - **Add a new lookup category** (e.g. a new component, a new sheet series) → also add a row to the lookup tables in `SKILL.md`.
-- **Bump the version** when changes warrant a re-pull from staff: update `version` in both `.claude-plugin/marketplace.json` and `plugins/groundcontrol/.claude-plugin/plugin.json`. Then push. Staff run `/plugin marketplace update groundcontrol`.
+- **Bump the version** when changes warrant a re-pull from staff: update the version in three places across two files — `metadata.version` and `plugins[0].version` in `.claude-plugin/marketplace.json`, and `version` in `plugins/groundcontrol/.claude-plugin/plugin.json`. Then push. Staff run `/plugin marketplace update groundcontrol`.
 
 ## Docsify (web site)
 
