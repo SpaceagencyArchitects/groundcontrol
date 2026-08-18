@@ -7,7 +7,7 @@ full script, the Python engine on its own (easier to edit), and the user README.
   Issue Drawings/
       filer.py                              engine
       Issue Drawings - shell script.txt     full script (wraps filer.py)
-      README.txt                            what it does / how to use
+      README.md                            what it does / how to use
     -> Select issued files, choose the project folder; MOVES them into
        YYMMDD_revisions and COPIES them into __CURRENT DOCUMENTS/ARCHITECT/<series>,
        archiving superseded revisions. TRANSMITTAL files are renamed
@@ -19,14 +19,14 @@ full script, the Python engine on its own (easier to edit), and the user README.
       SPAA_Letterhead_v0.docx               source letterhead
       BUILD NOTES.txt                       how to edit / re-embed the template
       Make a Document Register - shell script.txt
-      README.txt
+      README.md
     -> Right-click a folder; builds a Word register of the PDFs (grouped by
        subfolder) on the spA letterhead, saved to a _document register subfolder.
 
   Archive Superseded Revisions/
       archive.py                            engine
       Archive Superseded Revisions - shell script.txt
-      README.txt
+      README.md
     -> Right-click a folder; recursively keeps the highest revision of each
        drawing and moves the rest into _archive folders in place.
 
