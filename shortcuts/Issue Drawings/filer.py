@@ -1,0 +1,126 @@
+#!/usr/bin/env python3
+# Combined: MOVE selected files into <base>/YYMMDD_revisions, and COPY them into
+# <base>/__CURRENT DOCUMENTS/ARCHITECT/<series>, archiving superseded revisions.
+# TRANSMITTAL files are renamed YYMMDD_TRANSMITTAL, moved to the revisions folder only.
+import os, sys, re, shutil, datetime
+
+def parse(stem):
+    if '_' in stem:
+        m = re.match(r'^\s*([^_]+)_(\S{1,2})(?:\s|$)', stem)
+        if m:
+            return m.group(1).strip(), m.group(2).strip()
+        return stem.split('_', 1)[0].strip(), ''
+    return stem.split(' ', 1)[0].strip(), ''
+
+def series(num):
+    m = re.match(r'^([A-Za-z]+)(\d)', num)
+    if m:
+        return (m.group(1) + m.group(2)).upper()
+    m = re.match(r'^([A-Za-z]+)', num)
+    if m:
+        return m.group(1).upper()
+    return None
+
+def rev_rank(rev):
+    if rev == '':
+        return (0,)
+    if rev.isdigit():
+        return (2, int(rev))
+    return (1, len(rev), rev.upper())
+
+def _unique(dstdir, base):
+    dst = os.path.join(dstdir, base)
+    if os.path.exists(dst):
+        name, ext = os.path.splitext(base)
+        n = 2
+        while os.path.exists(os.path.join(dstdir, f"{name} ({n}){ext}")):
+            n += 1
+        dst = os.path.join(dstdir, f"{name} ({n}){ext}")
+    return dst
+
+def safe_copy(src, dstdir):
+    os.makedirs(dstdir, exist_ok=True)
+    dst = _unique(dstdir, os.path.basename(src))
+    shutil.copy2(src, dst)
+    return dst
+
+def safe_move(src, dstdir, newbase=None):
+    os.makedirs(dstdir, exist_ok=True)
+    dst = _unique(dstdir, newbase or os.path.basename(src))
+    shutil.move(src, dst)
+    return dst
+
+def find_series_folder(architect, prefix):
+    if prefix is None:
+        return architect
+    for d in sorted(os.listdir(architect)):
+        p = os.path.join(architect, d)
+        if os.path.isdir(p) and d.upper().startswith(prefix):
+            after = d[len(prefix):len(prefix)+1]
+            if after == '' or not after.isdigit():
+                return p
+    p = os.path.join(architect, prefix)
+    os.makedirs(p, exist_ok=True)
+    return p
+
+def find_child_folder(parent, name):
+    if os.path.isdir(parent):
+        for d in os.listdir(parent):
+            if d.lower() == name.lower() and os.path.isdir(os.path.join(parent, d)):
+                return os.path.join(parent, d)
+    p = os.path.join(parent, name)
+    os.makedirs(p, exist_ok=True)
+    return p
+
+def main():
+    base = sys.argv[1]
+    files = sys.argv[2:]
+    day = datetime.date.today().strftime('%y%m%d')
+    revfolder = os.path.join(base, f"{day}_revisions")
+    os.makedirs(revfolder, exist_ok=True)
+    curdocs = find_child_folder(base, "__CURRENT DOCUMENTS")
+    architect = os.path.join(curdocs, 'ARCHITECT')
+    os.makedirs(architect, exist_ok=True)
+
+    n_rev = n_copy = n_trans = n_arch = 0
+    filed = []
+    for f in files:
+        if not os.path.exists(f):
+            continue
+        bn = os.path.basename(f)
+        stem, ext = os.path.splitext(bn)
+        if 'TRANSMITTAL' in stem.upper():
+            safe_move(f, revfolder, f"{day}_TRANSMITTAL{ext}")   # revisions only
+            n_trans += 1
+            continue
+        moved = safe_move(f, revfolder)                          # move original to issue folder
+        n_rev += 1
+        num, rev = parse(stem)
+        folder = find_series_folder(architect, series(num))
+        safe_copy(moved, folder)                                 # copy into current documents
+        n_copy += 1
+        filed.append((folder, num.upper()))
+
+    for folder, num in set(filed):
+        lst = []
+        for fn in os.listdir(folder):
+            p = os.path.join(folder, fn)
+            if os.path.isfile(p) and not fn.startswith('.'):
+                n2, rv = parse(os.path.splitext(fn)[0])
+                if n2.upper() == num:
+                    lst.append((rv, p))
+        if len(lst) < 2:
+            continue
+        mx = max(rev_rank(r) for r, _ in lst)
+        for r, p in lst:
+            if rev_rank(r) < mx:
+                safe_move(p, os.path.join(folder, '_archive'))
+                n_arch += 1
+
+    print(f"Issued {n_rev} file(s)"
+          + (f" + {n_trans} transmittal(s)" if n_trans else "")
+          + f"; copied {n_copy} to Current Documents, archived {n_arch} superseded")
+
+if __name__ == '__main__':
+    main()
+

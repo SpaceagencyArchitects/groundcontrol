@@ -1,0 +1,88 @@
+# ===== ARCHIVE SUPERSEDED REVISIONS =====
+# Paste everything below into a "Run Shell Script" action in Shortcuts.app.
+# Shell: /bin/bash   |   Pass input: as arguments
+# The shortcut receives a FOLDER (or folders).
+
+export LC_ALL=en_US.UTF-8
+paths=()
+if [ "$#" -gt 0 ]; then
+  for f in "$@"; do paths+=("$f"); done
+else
+  while IFS= read -r f; do [ -n "$f" ] && paths+=("$f"); done
+fi
+[ "${#paths[@]}" -eq 0 ] && exit 0
+summary=$(/usr/bin/python3 - "${paths[@]}" <<'PYEOF'
+#!/usr/bin/env python3
+# Archive superseded revisions in place. For each folder (recursively, skipping
+# folders whose name starts with "_"), group files by drawing number; if a
+# drawing exists at more than one revision, keep the highest and move the
+# lower one(s) into an "_archive" subfolder in that same folder.
+import os, sys, re, shutil
+from collections import defaultdict
+
+def parse(stem):
+    if '_' in stem:
+        m = re.match(r'^\s*([^_]+)_(\S{1,2})(?:\s|$)', stem)
+        if m:
+            return m.group(1).strip(), m.group(2).strip()
+        return stem.split('_', 1)[0].strip(), ''
+    return stem.split(' ', 1)[0].strip(), ''
+
+def rev_rank(rev):
+    if rev == '':
+        return (0,)
+    if rev.isdigit():
+        return (2, int(rev))
+    return (1, len(rev), rev.upper())
+
+def safe_move(src, dstdir):
+    os.makedirs(dstdir, exist_ok=True)
+    base = os.path.basename(src)
+    dst = os.path.join(dstdir, base)
+    if os.path.exists(dst):
+        name, ext = os.path.splitext(base)
+        n = 2
+        while os.path.exists(os.path.join(dstdir, f"{name} ({n}){ext}")):
+            n += 1
+        dst = os.path.join(dstdir, f"{name} ({n}){ext}")
+    shutil.move(src, dst)
+    return dst
+
+def process_dir(dirpath, filenames):
+    bynum = defaultdict(list)
+    for fn in filenames:
+        if fn.startswith('.'):
+            continue
+        p = os.path.join(dirpath, fn)
+        if not os.path.isfile(p):
+            continue
+        num, rev = parse(os.path.splitext(fn)[0])
+        bynum[num.upper()].append((rev, p))
+    moved = 0
+    for num, lst in bynum.items():
+        if len(lst) < 2:
+            continue
+        mx = max(rev_rank(r) for r, _ in lst)
+        for r, p in lst:
+            if rev_rank(r) < mx:
+                safe_move(p, os.path.join(dirpath, '_archive'))
+                moved += 1
+    return moved
+
+def main():
+    total = 0
+    for root in sys.argv[1:]:
+        if not os.path.isdir(root):
+            continue
+        for dirpath, dirnames, filenames in os.walk(root):
+            dirnames[:] = [d for d in dirnames if not d.startswith('_')]
+            total += process_dir(dirpath, filenames)
+    print(f"Archived {total} superseded revision(s)")
+
+if __name__ == '__main__':
+    main()
+
+PYEOF
+)
+/usr/bin/open "${paths[0]}"
+/usr/bin/osascript -e 'on run {m}' -e 'display notification m with title "Archive Revisions"' -e 'end run' "$summary" >/dev/null 2>&1

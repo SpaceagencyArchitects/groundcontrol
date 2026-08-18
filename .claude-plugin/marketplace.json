@@ -4,22 +4,25 @@
     "name": "spaceagency"
   },
   "metadata": {
-    "description": "spaceagency's documentation codex (GROUNDCONTROL) — a Claude skill that guides spA staff through construction documentation: where information belongs in the drawing set, how to set up a documentation storyboard, ArchiCAD detail workflows, and how to write annotations in the spA voice.",
-    "version": "1.4.0"
+    "description": "spaceagency's practice codex and WA project toolkit as a Claude plugin — the GROUNDCONTROL documentation codex (where information belongs in the drawing set, ArchiCAD detail workflows, the spA voice) plus WA workflow skills for site analysis, due diligence, planning-envelope, materials research and presentations, routed via /studio.",
+    "version": "2.0.0"
   },
   "plugins": [
     {
       "name": "groundcontrol",
       "source": "./plugins/groundcontrol",
-      "description": "spaceagency's documentation codex as a Claude plugin. Provides quick lookups (component → sheets, sheet → contents), guided workflows (project documentation setup, detail strategy chooser, write in spA voice, pre-issue review), and access to the full reference codex.",
-      "version": "1.4.0",
+      "description": "spaceagency's documentation codex plus WA project workflows as a Claude plugin. Documentation lookups and guided workflows (set-up, detail strategy, spA voice, pre-issue review) alongside WA site analysis, due diligence, planning-envelope, materials research and presentation skills — describe a task to /studio and it routes to the right skill or agent.",
+      "version": "2.0.0",
       "category": "documentation",
       "keywords": [
         "architecture",
         "documentation",
         "construction-drawings",
         "archicad",
-        "spaceagency"
+        "spaceagency",
+        "western-australia",
+        "site-analysis",
+        "planning"
       ]
     }
   ]
