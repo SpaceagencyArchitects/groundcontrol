@@ -1,5 +1,5 @@
 ---
-name: house-style
+name: spa-style
 description: Apply the spaceagency house style to ANY Word document (.docx) — set the in-house font (KMR Waldenburg), strip bold, capitalise headings, set heading spacing, remove the header rule, clean and re-add heading bookmarks, tidy blank paragraphs, place the practice logo, and fill company details. Use when the user wants to "format this doc to our house style", "apply spaceagency formatting", "brand this document", "make this on-brand", "format this letter/report", or points at a .docx and asks to apply the practice font/logo/style. For NATSPEC specifications specifically, use the `natspec` skill instead (it wraps these same formatters plus spec-only steps).
 allowed-tools:
   - Read
@@ -12,17 +12,17 @@ allowed-tools:
 user-invocable: true
 ---
 
-# /house-style — spaceagency house-style formatter for any docx
+# /spa-style — spaceagency house-style formatter for any docx
 
 Formats **any** Word document to the practice house style in one pass. Unlike the
 `natspec` skill (which is specific to NATSPEC specifications), this works on
 letters, reports, schedules, briefs — anything in `.docx`. Every parameter lives
-in **`house-style.json`**, so changing the font, spacing or logo is a one-line
+in **`spa-style.json`**, so changing the font, spacing or logo is a one-line
 edit that then applies to every document.
 
 ## What it does
 
-Driven by `house-style.json`, `scripts/format_docx.py` runs the portable
+Driven by `spa-style.json`, `scripts/format_docx.py` runs the portable
 formatters in order:
 
 1. **Font & weight** — sets **KMR Waldenburg** everywhere (styles, document
@@ -46,7 +46,7 @@ formatters in order:
 python scripts/format_docx.py "input.docx" "output.docx"
 
 # use a project-specific parameter file instead of the default
-python scripts/format_docx.py "input.docx" "output.docx" --config /path/house-style.json
+python scripts/format_docx.py "input.docx" "output.docx" --config /path/spa-style.json
 ```
 
 To include the logo, type `{{logo}}` in the document where it should sit (and
@@ -68,7 +68,7 @@ Each step is also a standalone script under `scripts/` (all import the bundled
 | `collapse_blanks.py in out [--remove-all] [--strip-soft-breaks]` | tidy blank paragraphs / soft breaks |
 | `place_logo.py in out --logo assets/logo.png --width-cm 3 [--header]` | logo at `{{logo}}` token / header |
 
-## Parameters (`house-style.json`)
+## Parameters (`spa-style.json`)
 
 | Key | Meaning |
 |---|---|

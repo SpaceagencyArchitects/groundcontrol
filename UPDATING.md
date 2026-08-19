@@ -6,7 +6,7 @@ How codex content flows to the GitHub Pages site and the Claude plugin — and h
 
 ```
 this repository                      ← source of truth (the markdown codex)
-  plugins/groundcontrol/skills/groundcontrol/
+  plugins/groundcontrol/skills/groundcontrol/references/
         │
         ├──▶ docsify site            spaceagencyarchitects.github.io/groundcontrol
         │    (index.html renders the markdown; updates automatically on push)
@@ -22,15 +22,15 @@ this repository                      ← source of truth (the markdown codex)
 ## Repo conventions
 
 - One markdown file per codex note, named after the note title.
-- Folders follow topic: `principles/`, `archicad/`, `tips/`, `protocol/`. Drawing-series notes (A00–Z) sit at the skill root.
+- Codex content lives in `references/`. Folders follow topic: `references/principles/`, `references/archicad/`, `references/tips/`, `references/protocol/`. Drawing-series notes (A00–Z) sit at the `references/` root. (`SKILL.md` stays at the skill root and light.)
 - Note attachments (images, PDFs) go in a subfolder named after the note, e.g. `archicad/ArchiCAD fix/`. Image links in the markdown are URL-encoded relative paths.
 - Files carry a hashtag tag line at the bottom (a convention retained from the codex's origins) — keep it for consistency.
-- New notes must be added to `_sidebar.md` (docsify navigation).
+- New notes must be added to `references/_sidebar.md` (docsify navigation).
 - Plugin version lives in **two files, three places**: `.claude-plugin/marketplace.json` (`metadata.version` and `plugins[0].version`) and `plugins/groundcontrol/.claude-plugin/plugin.json` (`version`). Bump all three together — minor bump (1.x.0) for content additions/changes.
 
 ## Running an update
 
-1. **Edit the markdown** in `plugins/groundcontrol/skills/groundcontrol/`. With Claude: connect the repo folder in Cowork (or run Claude Code in it) and describe the change — Claude edits the files applying the codex conventions. A new note goes in the right folder and into `_sidebar.md`; a new lookup category also gets a row in `SKILL.md`. New images go in the note's attachment subfolder, referenced by URL-encoded relative path.
+1. **Edit the markdown** in `plugins/groundcontrol/skills/groundcontrol/references/`. With Claude: connect the repo folder in Cowork (or run Claude Code in it) and describe the change — Claude edits the files applying the codex conventions. A new note goes in the right folder and into `references/_sidebar.md`; a new lookup category also gets a row in the skill-root `SKILL.md`. New images go in the note's attachment subfolder, referenced by URL-encoded relative path.
 2. **Bump the version** (three places, above).
 3. **Validate**: `claude plugin validate .` from the repo root.
 4. **Commit and push** to `main`.

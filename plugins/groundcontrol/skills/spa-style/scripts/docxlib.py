@@ -1,6 +1,6 @@
 """
 docxlib.py — light-weight, regex-based helpers for reading and rewriting the
-XML parts of a .docx without a heavy DOM. Shared by the house-style scripts.
+XML parts of a .docx without a heavy DOM. Shared by the spa-style scripts.
 """
 import re, zipfile
 

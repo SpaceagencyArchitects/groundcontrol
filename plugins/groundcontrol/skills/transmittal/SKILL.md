@@ -20,7 +20,7 @@ This is the record-and-document layer. It does **not** move or archive files —
 
 ## Conventions (spA)
 
-- **Black & white only**, **KMR Waldenburg Buch Halbschmal** throughout, metric / Australian English. Match the template in `assets/transmittal-template.xlsx`.
+- **Black & white only**, **KMR Waldenburg Buch Halbschmal** throughout, metric / Australian English. Match the template in `templates/transmittal-template.xlsx`.
 - **Records-critical output.** A transmittal is a contractual record — verify the register against the drawings before it is issued, and never overstate: flag anything uncertain (missing revs, drawings not found) rather than guessing.
 
 ## When to use
@@ -60,7 +60,7 @@ The register is fully derivable from the folders, so **"update after an issue" a
    ```
    python3 scripts/build_transmittal.py --data scan.json --out "<PROJECT_ROOT>/__CURRENT DOCUMENTS/ARCHITECT/_document register/<no>_<title>_Transmittal.xlsx"
    ```
-   It reproduces the spA template layout from `assets/transmittal-template.xlsx`: header block, Current Rev column, one dated column per issue, series bands, and the Distribution / Method-of-Issue / Purpose-of-Issue / Issued-by rows. A **Notes** tab lists any flagged files.
+   It reproduces the spA template layout from `templates/transmittal-template.xlsx`: header block, Current Rev column, one dated column per issue, series bands, and the Distribution / Method-of-Issue / Purpose-of-Issue / Issued-by rows. A **Notes** tab lists any flagged files.
 4. **Write output to the discipline's `_document register/` folder** (as above) — that is the register's home.
 5. **Report the flags** — the missing-revision filenames (to correct at source) and any drawing that was issued but is not in the current set (possibly superseded or renamed).
 

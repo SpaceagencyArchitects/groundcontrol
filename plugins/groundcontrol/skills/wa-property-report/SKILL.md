@@ -70,7 +70,7 @@ If the user doesn't know the lot / plan, instruct them:
 
 ### Step 2: Cadastre & Certificate of Title
 
-Load `reference/landgate-guide.md`.
+Load `references/landgate-guide.md`.
 
 Ask the user to:
 1. Run a **Landgate map search** (free) — confirm lot, plan, site area, and check for any visible encumbrances on the sidebar
@@ -103,7 +103,7 @@ If the title shows **any restrictive covenant, Memorial, or unusual encumbrance*
 
 ### Step 3: Heritage
 
-Load `reference/heritage-guide.md`.
+Load `references/heritage-guide.md`.
 
 Run these checks in parallel:
 
@@ -133,7 +133,7 @@ If heritage-listed, flag:
 
 ### Step 4: DA history & SAT decisions
 
-Load `reference/da-history-guide.md`.
+Load `references/da-history-guide.md`.
 
 Run these checks:
 
@@ -163,7 +163,7 @@ Knowing the approval history stops you from pitching a design that looks like so
 
 ### Step 5: Environmental & statutory checks
 
-Load `reference/environmental-guide.md`.
+Load `references/environmental-guide.md`.
 
 Work through each check systematically. For each, record **checked and clear** or **checked and flagged** — don't leave any blank.
 

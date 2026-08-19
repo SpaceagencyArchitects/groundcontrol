@@ -103,8 +103,10 @@ The generated deck includes built-in navigation:
 
 | File | Purpose |
 |------|---------|
-| `SKILL.md` | Full skill prompt with HTML template, CSS, JS, and all component markup |
-| `sample.html` | Reference deck demonstrating all 22 slide types |
+| `SKILL.md` | Skill prompt — conventions, workflow, design system, and pointers to the files below |
+| `templates/deck-template.html` | The deck template — the self-contained HTML shell (head, CSS, nav JS) you fill with slides |
+| `references/component-patterns.md` | Ready-to-paste HTML for every slide component |
+| `references/sample-deck.html` | Reference deck demonstrating all slide types |
 | `README.md` | This file |
 
 ## Custom Accent Colors

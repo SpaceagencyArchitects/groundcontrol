@@ -26,15 +26,15 @@ The skill will ask for the site address, LGA, lot / DP number, proposed use, and
 
 | LGA | LPS | File | Status |
 |---|---|---|---|
-| City of Fremantle | LPS4 | `planning-rules/lps-city-of-fremantle-lps4.md` | ✅ Bundled |
+| City of Fremantle | LPS4 | `references/lps-city-of-fremantle-lps4.md` | ✅ Bundled |
 | City of Perth | LPS26 | — | ➕ Request to add |
 | Other LGAs | various | — | Either supply the LPS controls yourself, or ask to add the LPS |
 
-Adding a new LPS is a one-file addition — drop a `lps-[lga-slug].md` in the `planning-rules/` folder following the existing template.
+Adding a new LPS is a one-file addition — drop a `lps-[lga-slug].md` in the `references/` folder following the existing template.
 
 ## Data sources
 
-See [`planning-rules/data-sources.md`](./planning-rules/data-sources.md) for a full guide to where each piece of planning data comes from, including:
+See [`references/data-sources.md`](./references/data-sources.md) for a full guide to where each piece of planning data comes from, including:
 
 - Landgate (cadastre, Certificate of Title)
 - WAPC MyPlan (MRS zoning)

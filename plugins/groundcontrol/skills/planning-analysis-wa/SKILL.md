@@ -97,15 +97,15 @@ For the envelope 3D viewer you need a lot polygon. Options, in order of preferen
 ### Step 3: Load the bundled regulation files
 
 Always read:
-- `planning-rules/overview.md` — the WA planning framework primer (MRS → LPS → LPP hierarchy)
-- `planning-rules/data-sources.md` — guide to where each piece of data comes from
+- `references/overview.md` — the WA planning framework primer (MRS → LPS → LPP hierarchy)
+- `references/data-sources.md` — guide to where each piece of data comes from
 
 Conditionally read, based on inputs:
-- `planning-rules/mrs-zones.md` — if MRS zone is a reservation or the LGA is in a regional scheme area
-- `planning-rules/r-codes-vol-1.md` — if R-Code is R5 through R100 and the proposed use is Single House or Grouped Dwelling
-- `planning-rules/r-codes-vol-2.md` — if R-Code is R30+ with apartment form, or R-AC0 / R-AC1 / R-AC2 / R-AC3
-- `planning-rules/use-classes.md` — for the P / D / A / X permissibility check
-- `planning-rules/lps-[lga-slug].md` — the specific LPS file for the site's LGA (e.g. `lps-city-of-fremantle-lps4.md`)
+- `references/mrs-zones.md` — if MRS zone is a reservation or the LGA is in a regional scheme area
+- `references/r-codes-vol-1.md` — if R-Code is R5 through R100 and the proposed use is Single House or Grouped Dwelling
+- `references/r-codes-vol-2.md` — if R-Code is R30+ with apartment form, or R-AC0 / R-AC1 / R-AC2 / R-AC3
+- `references/use-classes.md` — for the P / D / A / X permissibility check
+- `references/lps-[lga-slug].md` — the specific LPS file for the site's LGA (e.g. `lps-city-of-fremantle-lps4.md`)
 
 If the LPS file for the relevant LGA is not bundled, tell the user:
 > Sorry, this skill only has City of Fremantle LPS4 bundled at present. To continue, either (a) supply the key LPS controls for this site yourself (use table, plot ratio, height, setbacks, open space), or (b) ask me to add the LPS file for [LGA name] as a one-off before we proceed.
@@ -128,7 +128,7 @@ If `X` (not permitted), the envelope analysis is still useful but note prominent
 For a residential site under the R-Codes, compute:
 
 **Density / yield (Vol. 1 — single & grouped dwellings):**
-- Minimum / average / maximum site area per dwelling from the R-Code density table (`planning-rules/r-codes-vol-1.md`)
+- Minimum / average / maximum site area per dwelling from the R-Code density table (`references/r-codes-vol-1.md`)
 - Maximum number of dwellings = site area ÷ minimum site area per dwelling (round down)
 - Note that average site area is the binding constraint in most cases, not minimum
 

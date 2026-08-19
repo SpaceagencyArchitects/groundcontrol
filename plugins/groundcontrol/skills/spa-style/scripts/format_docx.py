@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 format_docx.py — apply the spaceagency house style to ANY .docx in one pass,
-driven by house-style.json. Works on letters, reports, schedules — any Word
+driven by spa-style.json. Works on letters, reports, schedules — any Word
 document, not just NATSPEC specs.
 
 It runs the portable formatters in order: font + no-bold + caps headings →
@@ -9,12 +9,12 @@ heading spacing + remove header rule → clean bookmarks + add heading bookmarks
 collapse blank paragraphs + strip soft breaks → place the logo (at the {{logo}}
 token and/or in the header) → fill the {{company}} token.
 
-Everything is parameterised in house-style.json, so changing the font, spacing
+Everything is parameterised in spa-style.json, so changing the font, spacing
 or logo is a one-line edit there.
 
 Usage:
     python format_docx.py in.docx out.docx
-    python format_docx.py in.docx out.docx --config /path/house-style.json
+    python format_docx.py in.docx out.docx --config /path/spa-style.json
 """
 import sys, os, json, subprocess, tempfile, shutil, zipfile, re
 
@@ -44,7 +44,7 @@ def replace_token(docx, token, text):
 def main():
     a = sys.argv
     src, dst = a[1], a[2]
-    cfg_path = a[a.index("--config") + 1] if "--config" in a else os.path.join(SKILL, "house-style.json")
+    cfg_path = a[a.index("--config") + 1] if "--config" in a else os.path.join(SKILL, "spa-style.json")
     cfg = json.load(open(cfg_path))
 
     tmp = tempfile.mkdtemp()

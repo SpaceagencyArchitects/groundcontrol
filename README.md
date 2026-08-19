@@ -121,13 +121,13 @@ groundcontrol/                        ← repo root = marketplace + Docsify site
 └── plugins/
     └── groundcontrol/                 ← the plugin
         ├── .claude-plugin/plugin.json ← plugin manifest
-        ├── skills/                    ← 13 skills (codex at skills/groundcontrol/)
+        ├── skills/                    ← 14 skills (codex content under skills/groundcontrol/references/)
         ├── agents/                    ← 3 agents
         ├── rules/                     ← 8 always-on rules
         └── hooks/                     ← 3 hooks + settings snippet
 ```
 
-Only the codex skill (`skills/groundcontrol/`) is published to the Docsify site — its `basePath` is scoped to that folder, so the sibling workflow skills stay off the public page.
+Only the codex skill's `references/` folder is published to the Docsify site — `basePath` is scoped to `skills/groundcontrol/references/`, so `SKILL.md` and the sibling workflow skills stay off the public page.
 
 ## Editing on your workstation
 
@@ -136,13 +136,13 @@ This repo doubles as an **Obsidian vault** — open the `groundcontrol/` folder 
 Two things to keep the vault from fighting the published site:
 
 - **Keep Obsidian's config out of git.** Obsidian writes a `.obsidian/` workspace folder; it's listed in `.gitignore` so your personal layout isn't committed.
-- **Link the docsify way, not the wiki way.** The codex renders on GitHub Pages via Docsify, which follows relative-path links (`[A50](./A50 - Finishes.md)`) and the `_sidebar.md` nav — not Obsidian `[[wikilinks]]`. When you add or rename a codex note, update `_sidebar.md` so it appears on the site.
+- **Link the docsify way, not the wiki way.** The codex renders on GitHub Pages via Docsify, which follows relative-path links (`[A50](./A50 - Interface Details.md)`) and the `references/_sidebar.md` nav — not Obsidian `[[wikilinks]]`. When you add or rename a codex note, update `references/_sidebar.md` so it appears on the site.
 
 ## Maintaining the codex
 
-**This repository is the source of truth for the codex.** Edit the markdown in `plugins/groundcontrol/skills/groundcontrol/` directly — with Claude (it applies the codex's own conventions) or by hand in Obsidian / VS Code.
+**This repository is the source of truth for the codex.** Edit the codex markdown in `plugins/groundcontrol/skills/groundcontrol/references/` directly — with Claude (it applies the codex's own conventions) or by hand in Obsidian / VS Code.
 
-- **Edit / add / delete a note** → change the file, and update `_sidebar.md` to match.
+- **Edit / add / delete a note** → change the file, and update `references/_sidebar.md` to match.
 - **New lookup category** (component, sheet series) → also add a row to the lookup tables in the codex `SKILL.md`.
 - **Bump the version** when a change should reach staff: set the version in three places — `metadata.version` and `plugins[0].version` in `.claude-plugin/marketplace.json`, and `version` in `plugins/groundcontrol/.claude-plugin/plugin.json` — keep them identical, then push. Staff run `/plugin marketplace update groundcontrol`.
 

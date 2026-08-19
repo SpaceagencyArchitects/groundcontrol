@@ -60,6 +60,14 @@ Read ../../agents/wa-planning-expert.md
 
 Agent files contain the full orchestration logic — which skills to call, in what order, and what judgment to apply. Follow the agent's instructions. Do not invent your own workflow.
 
+**Fallback — agent not available.** If an agent file can't be read (e.g. this is running without the full GROUNDCONTROL plugin, so `../../agents/` isn't present), route to the underlying skills directly instead:
+
+- **Site Planner** → `environmental-analysis`, `mobility-analysis`, `demographics-analysis`, `history`
+- **WA Planning Expert** → `planning-analysis-wa`, `wa-property-report`, `zoning-envelope`
+- **Product & Materials Researcher** → `product-research`, `product-spec-pdf-parser`
+
+Run them in that order and synthesise the outputs yourself. Say you're using the skills directly because the agent playbook isn't loaded.
+
 ### Rule 2: One skill — invoke directly
 
 If the request maps to a single specific skill (user named it, or the task is narrow enough that only one skill applies), invoke that skill directly. Do not load an agent. Documentation questions activate the GROUNDCONTROL codex skill.

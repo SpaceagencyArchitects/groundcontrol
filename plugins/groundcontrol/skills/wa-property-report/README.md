@@ -66,7 +66,7 @@ Every external source the workflow touches, with a link:
 ## Related
 
 - [`/planning-analysis-wa`](../planning-analysis-wa/) — envelope analysis (complements DD — run both for a full pre-design workup)
-- `reference/landgate-guide.md`, `reference/heritage-guide.md`, `reference/da-history-guide.md`, `reference/environmental-guide.md` — the bundled reference material the skill draws on
+- `references/landgate-guide.md`, `references/heritage-guide.md`, `references/da-history-guide.md`, `references/environmental-guide.md` — the bundled reference material the skill draws on
 
 ## License
 

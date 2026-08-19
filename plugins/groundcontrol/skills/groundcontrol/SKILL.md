@@ -15,14 +15,14 @@ Treat the codex as a **set of guides, not rules**. Adjustments to suit a particu
 
 1. **Read the user's question carefully and route to the right mode.** Most questions fall into one of these:
 
-   - **Lookup — component:** "Where do I document doors?" / "Where do wall finishes belong?" → use the **Component → Sheets map** below. If more depth is needed, read `components/<Component>.md`.
-   - **Lookup — sheet:** "What goes on A50?" / "What's on a roof plan?" → use the **Drawing series at a glance** below. For full content, read `A<NN> - <Title>.md` at the skill root.
-   - **Lookup — principle:** "How should I dimension this?" / "What font size?" → read the relevant file in `principles/`.
+   - **Lookup — component:** "Where do I document doors?" / "Where do wall finishes belong?" → use the **Component → Sheets map** below. If more depth is needed, read `references/components/<Component>.md`.
+   - **Lookup — sheet:** "What goes on A50?" / "What's on a roof plan?" → use the **Drawing series at a glance** below. For full content, read `references/A<NN> - <Title>.md`.
+   - **Lookup — principle:** "How should I dimension this?" / "What font size?" → read the relevant file in `references/principles/`.
    - **Workflow — start a project's documentation:** → run **Workflow A: Documentation setup** below.
-   - **Workflow — choose a detail strategy:** → run **Workflow B: Detail strategy chooser** below; final answer points to one of `archicad/WF50.1` … `WF50.4`.
+   - **Workflow — choose a detail strategy:** → run **Workflow B: Detail strategy chooser** below; final answer points to one of `references/archicad/WF50.1` … `WF50.4`.
    - **Workflow — describe an item / write an annotation / write a schedule line:** → run **Workflow C: Write in spA voice**.
-   - **Workflow — pre-issue review / checklist:** → run **Workflow D: Pre-issue review**, drawing on `tips/spA documentation  checklist.md`.
-   - **General study / browsing:** point them to `✱ SpA GROUNDCONTROL.md` (the index) and offer to walk through a section.
+   - **Workflow — pre-issue review / checklist:** → run **Workflow D: Pre-issue review**, drawing on `references/tips/spA documentation  checklist.md`.
+   - **General study / browsing:** point them to `references/✱ SpA GROUNDCONTROL.md` (the index) and offer to walk through a section.
 
 2. **Don't dump entire files.** Pull the relevant slice. spA architects are time-poor; they want the answer, not a recital. Quote the codex only where wording matters (e.g. when explaining a rule).
 
@@ -38,25 +38,25 @@ Treat the codex as a **set of guides, not rules**. Adjustments to suit a particu
 
 These are the load-bearing ideas. If you forget everything else, hold onto these.
 
-- **Say it once.** Every piece of information appears in one agreed place — a drawing or a schedule — and is not repeated. Do not write `AS SPECIFIED`, `AS SCHEDULED`, or `REFER TO ENGINEERS DETAILS`. They are redundant and hazardous. Source: `principles/Allocation of Information.md`, `principles/Annotations.md`.
+- **Say it once.** Every piece of information appears in one agreed place — a drawing or a schedule — and is not repeated. Do not write `AS SPECIFIED`, `AS SCHEDULED`, or `REFER TO ENGINEERS DETAILS`. They are redundant and hazardous. Source: `references/principles/Allocation of Information.md`, `references/principles/Annotations.md`.
 
 - **Drawings, schedules, specifications are three different things.** Drawings show graphic + dimensional design. Schedules ('assembly of elements' types — doors, rooms — are in the drawing set; 'building elements' types — finishes, FFE, specification schedules — are appended to the spec). Specifications cover written technical and non-technical requirements.
 
-- **Sheet numbering is `A<TT><SS>.<NN>`** — Discipline (always `A` for spA), Sheet Type (00 General, 10 Plans, 20 Elevations, 30 Sections, 40 Large-Scale Drawings, 50 Details, 60 Room Layouts, 70 Door/Window Schedules, 80 Finishes Schedules, 90 3D), Sequence Number (01–99, non-sequential — leave gaps). Source: `principles/Sheet Numbering.md`.
+- **Sheet numbering is `A<TT><SS>.<NN>`** — Discipline (always `A` for spA), Sheet Type (00 General, 10 Plans, 20 Elevations, 30 Sections, 40 Large-Scale Drawings, 50 Details, 60 Room Layouts, 70 Door/Window Schedules, 80 Finishes Schedules, 90 3D), Sequence Number (01–99, non-sequential — leave gaps). Source: `references/principles/Sheet Numbering.md`.
 
-- **Storyboard before drafting.** Decide paper size first (must stay consistent across the set). Build a general storyboard from the SpA Alphabet, then component-specific storyboards inside it. Source: `principles/Documentation Planning Storyboarding.md`.
+- **Storyboard before drafting.** Decide paper size first (must stay consistent across the set). Build a general storyboard from the SpA Alphabet, then component-specific storyboards inside it. Source: `references/principles/Documentation Planning Storyboarding.md`.
 
-- **Drafting philosophy:** describe outcomes, not methods. Don't replicate proprietary system details. Resolve junctions off-line first, then decide if they need to be in the set. Use technical diagrams, not pictures. Source: `principles/Drafting.md`.
+- **Drafting philosophy:** describe outcomes, not methods. Don't replicate proprietary system details. Resolve junctions off-line first, then decide if they need to be in the set. Use technical diagrams, not pictures. Source: `references/principles/Drafting.md`.
 
-- **Annotation grammar:** generic name → systems/materials code → finish descriptor → finishes code. (e.g. `CLADDING EWS-3, PAINTED PT-4`). Use active voice, command form, no abbreviations except those listed on the legend sheet. Source: `principles/Annotations.md`.
+- **Annotation grammar:** generic name → systems/materials code → finish descriptor → finishes code. (e.g. `CLADDING EWS-3, PAINTED PT-4`). Use active voice, command form, no abbreviations except those listed on the legend sheet. Source: `references/principles/Annotations.md`.
 
-- **Minimum text size 2.0 mm at full size.** Detail titles 3.5 mm. Text is horizontal or rotated 90° counterclockwise — never anything else. Source: `principles/Annotations.md`.
+- **Minimum text size 2.0 mm at full size.** Detail titles 3.5 mm. Text is horizontal or rotated 90° counterclockwise — never anything else. Source: `references/principles/Annotations.md`.
 
 ---
 
 ## Drawing series at a glance
 
-Use this as a quick lookup. For full content of any sheet, open `A<NN> - <Title>.md`.
+Use this as a quick lookup. For full content of any sheet, open `references/A<NN> - <Title>.md`.
 
 | Series | Range       | Subseries                   | Purpose                                               | Typical scales      |
 |--------|-------------|-----------------------------|-------------------------------------------------------|---------------------|
@@ -87,26 +87,26 @@ When asked "where does X go?", give the spread of sheets in this order: legend �
 
 | Component                       | Codex file                                          | Appears on                                                                  |
 |---------------------------------|-----------------------------------------------------|-----------------------------------------------------------------------------|
-| Ceilings                        | `components/Ceilings.md`                            | A01 legend, A14 RCPs, A60 room layouts, A50 interface details, Z spec       |
-| Concrete + waterproofing        | `components/Concrete Setting out and Waterproofing.md` | A12, A50 details, Z spec                                                |
-| Demolition                      | `components/Demolition.md`                          | A02 demolition plans/elevs, Z spec                                          |
-| Doors                           | `components/Doors.md`                               | A01 legend, A10 plans, A20 ext elevations, A70 door schedule + 1:5 details, A50 special interfaces, Z spec |
-| External wall systems           | `components/External Wall Systems.md`               | A01 legend, A20 elevs, A30 sections, A50 details, Z spec                    |
-| Floors                          | `components/Floors.md`                              | A10 plans, A50 interface details, Z spec; finishes in A80 room schedule     |
-| Furniture                       | `components/Furniture.md`                           | A68 FFE, A60 room layouts, FFE schedule appended to spec                    |
-| Joinery                         | `components/Joinery.md`                             | A10 plans (codes), A60 room layouts, A65 joinery details, Z spec            |
-| Landscaping + external works    | `components/Landscaping and External Works.md`      | A45, Z spec                                                                 |
-| Lifts                           | `components/Lifts.md`                               | A10 plans, A40 cores/stairs/lifts, Z spec                                   |
-| Metalwork                       | `components/Metalwork.md`                           | A10 plans (codes), A45 metalwork, A50 details, Z spec                       |
-| Paint finishes                  | `components/Paint Finishes.md`                      | A01 legend (PT and C codes), A80 colour schedule (C codes), Z spec (PT systems); annotated as `PT1/C4` |
-| Partitions                      | `components/Partitions.md`                          | A10 plans (types + setting-out), A50 details, Z spec                        |
-| Roof + roofing systems          | `components/Roof and Roofing Systems.md`            | A10 roof plans, A20 elevs, A50 details, Z spec                              |
-| Signage                         | `components/Signage.md`                             | A10 plans (free-standing + wall-hung wayfinding), A70 (statutory door signs), A80 (wayfinding schedule) |
-| Stairs                          | `components/Stairs.md`                              | A10 plans, A40 cores/stairs/lifts, Z spec                                   |
-| Wall finishes                   | `components/Wall Finishes.md`                       | A01 legend, A80 room schedule (codes), A60 for complex spaces, Z spec       |
-| Wall protection                 | `components/Wall Protection.md`                     | A60 room layouts, Z spec                                                    |
-| Wet areas                       | `components/Wet Areas.md`                           | A10 plans (setdown), A60 room layouts, A50 setdown detail, Z spec           |
-| Windows                         | `components/Windows.md`                             | A01 legend, A20 ext elevations, A70 window schedule + 1:5 details, A50 special interfaces, Z spec |
+| Ceilings                        | `references/components/Ceilings.md`                            | A01 legend, A14 RCPs, A60 room layouts, A50 interface details, Z spec       |
+| Concrete + waterproofing        | `references/components/Concrete Setting out and Waterproofing.md` | A12, A50 details, Z spec                                                |
+| Demolition                      | `references/components/Demolition.md`                          | A02 demolition plans/elevs, Z spec                                          |
+| Doors                           | `references/components/Doors.md`                               | A01 legend, A10 plans, A20 ext elevations, A70 door schedule + 1:5 details, A50 special interfaces, Z spec |
+| External wall systems           | `references/components/External Wall Systems.md`               | A01 legend, A20 elevs, A30 sections, A50 details, Z spec                    |
+| Floors                          | `references/components/Floors.md`                              | A10 plans, A50 interface details, Z spec; finishes in A80 room schedule     |
+| Furniture                       | `references/components/Furniture.md`                           | A68 FFE, A60 room layouts, FFE schedule appended to spec                    |
+| Joinery                         | `references/components/Joinery.md`                             | A10 plans (codes), A60 room layouts, A65 joinery details, Z spec            |
+| Landscaping + external works    | `references/components/Landscaping and External Works.md`      | A45, Z spec                                                                 |
+| Lifts                           | `references/components/Lifts.md`                               | A10 plans, A40 cores/stairs/lifts, Z spec                                   |
+| Metalwork                       | `references/components/Metalwork.md`                           | A10 plans (codes), A45 metalwork, A50 details, Z spec                       |
+| Paint finishes                  | `references/components/Paint Finishes.md`                      | A01 legend (PT and C codes), A80 colour schedule (C codes), Z spec (PT systems); annotated as `PT1/C4` |
+| Partitions                      | `references/components/Partitions.md`                          | A10 plans (types + setting-out), A50 details, Z spec                        |
+| Roof + roofing systems          | `references/components/Roof and Roofing Systems.md`            | A10 roof plans, A20 elevs, A50 details, Z spec                              |
+| Signage                         | `references/components/Signage.md`                             | A10 plans (free-standing + wall-hung wayfinding), A70 (statutory door signs), A80 (wayfinding schedule) |
+| Stairs                          | `references/components/Stairs.md`                              | A10 plans, A40 cores/stairs/lifts, Z spec                                   |
+| Wall finishes                   | `references/components/Wall Finishes.md`                       | A01 legend, A80 room schedule (codes), A60 for complex spaces, Z spec       |
+| Wall protection                 | `references/components/Wall Protection.md`                     | A60 room layouts, Z spec                                                    |
+| Wet areas                       | `references/components/Wet Areas.md`                           | A10 plans (setdown), A60 room layouts, A50 setdown detail, Z spec           |
+| Windows                         | `references/components/Windows.md`                             | A01 legend, A20 ext elevations, A70 window schedule + 1:5 details, A50 special interfaces, Z spec |
 
 ---
 
@@ -114,17 +114,17 @@ When asked "where does X go?", give the spread of sheets in this order: legend �
 
 | Topic                          | File                                                      | Use when…                                                            |
 |--------------------------------|-----------------------------------------------------------|----------------------------------------------------------------------|
-| Toolbox sessions               | `archicad/ArchiCAD Toolbox sessions.md`                   | onboarding / general practice technique                              |
-| Classification + properties    | `archicad/Classification and Properties.md`               | tagging elements for schedules + filtering                           |
-| Hotlink attribute management   | `archicad/Hotlink Attribute Management.md`                | working across hotlinked files; behaviour is **automatic + name-based**, no user toggle |
-| Keynotes                       | `archicad/Keynotes.md`                                    | setting up keynote schedules; PT/C paint code system                 |
-| MRH drawing review             | `archicad/MRH drawing review.md`                          | drawing review process                                               |
-| WF50.1 — Model-based detail with viewpoint | `archicad/WF50.1 Model based detail with viewpoint.md` | best for **1:20 first-level details**; detail stays live with model |
-| WF50.2 — 3D Document detail    | `archicad/WF50.2 3D Document Detail.md`                   | best for **very complex details that 2D can't communicate**          |
-| WF50.3 — Drawn independent detail | `archicad/WF50.3 Drawn Independent Detail.md`          | best for **standardised 1:5 details** that shouldn't change with model rebuilds |
-| WF50.4 — Drawn copy with source marker | `archicad/WF50.4 Drawn Copy of Detail with Source Marker.md` | best for **detail variations** (same wall, different floor finish); avoid otherwise |
-| WF50.6 — Numbering + naming    | `archicad/WF50.6 Numbering and Naming Details.md`         | naming convention for details                                        |
-| WF50.7 — Detail layout techniques | `archicad/WF50.7 Detail Layout Techniques.md`           | sheet composition for detail layouts                                 |
+| Toolbox sessions               | `references/archicad/ArchiCAD Toolbox sessions.md`                   | onboarding / general practice technique                              |
+| Classification + properties    | `references/archicad/Classification and Properties.md`               | tagging elements for schedules + filtering                           |
+| Hotlink attribute management   | `references/archicad/Hotlink Attribute Management.md`                | working across hotlinked files; behaviour is **automatic + name-based**, no user toggle |
+| Keynotes                       | `references/archicad/Keynotes.md`                                    | setting up keynote schedules; PT/C paint code system                 |
+| MRH drawing review             | `references/archicad/MRH drawing review.md`                          | drawing review process                                               |
+| WF50.1 — Model-based detail with viewpoint | `references/archicad/WF50.1 Model based detail with viewpoint.md` | best for **1:20 first-level details**; detail stays live with model |
+| WF50.2 — 3D Document detail    | `references/archicad/WF50.2 3D Document Detail.md`                   | best for **very complex details that 2D can't communicate**          |
+| WF50.3 — Drawn independent detail | `references/archicad/WF50.3 Drawn Independent Detail.md`          | best for **standardised 1:5 details** that shouldn't change with model rebuilds |
+| WF50.4 — Drawn copy with source marker | `references/archicad/WF50.4 Drawn Copy of Detail with Source Marker.md` | best for **detail variations** (same wall, different floor finish); avoid otherwise |
+| WF50.6 — Numbering + naming    | `references/archicad/WF50.6 Numbering and Naming Details.md`         | naming convention for details                                        |
+| WF50.7 — Detail layout techniques | `references/archicad/WF50.7 Detail Layout Techniques.md`           | sheet composition for detail layouts                                 |
 
 ---
 
@@ -145,7 +145,7 @@ Run when a project leader is setting up the CD documentation for a new project. 
 6. **Plan consultant input management.** Identify which consultants feed which sheets. Plan how their drawings will be reviewed and incorporated. Do **not** repeat their information (column sizes, purlin layouts, etc.).
 7. **Output the storyboard as a deliverable.** Drawing numbers, drawing titles, layouts within each sheet (down to 1:20 scale). Sheets of 1:5 details are numbered and inserted but not laid out at the storyboard stage.
 
-Source: `principles/Documentation Planning Storyboarding.md`, `principles/Sheet Numbering.md`, `principles/Allocation of Information.md`.
+Source: `references/principles/Documentation Planning Storyboarding.md`, `references/principles/Sheet Numbering.md`, `references/principles/Allocation of Information.md`.
 
 ### Workflow B — Detail strategy chooser
 
@@ -164,7 +164,7 @@ Then recommend:
 - **1:5 + standardised office detail + don't want model rebuilds to alter it → WF50.3 (drawn independent).**
 - **Variations of the same detail → WF50.4 (drawn copy with source marker).** Avoid otherwise — changes are hard to track.
 
-Read the relevant `archicad/WF50.<N>.md` and walk the user through the four steps + give them the live advantages/disadvantages.
+Read the relevant `references/archicad/WF50.<N>.md` and walk the user through the four steps + give them the live advantages/disadvantages.
 
 ### Workflow C — Write in spA voice
 
@@ -183,7 +183,7 @@ For schedule lines (especially door hardware): describe **what it does, what it 
 
 Rule of thumb: **if a competent hardware consultant can code it correctly without calling you, you've given the right amount of detail.**
 
-Source: `principles/Annotations.md`, `A70 - Doors and Windows.md`.
+Source: `references/principles/Annotations.md`, `references/A70 - Doors and Windows.md`.
 
 ### Workflow D — Pre-issue review
 
@@ -192,8 +192,8 @@ Run when asked to audit a drawing set or a sheet before issue.
 1. **Allocation check.** For every piece of information on the sheet, ask: is this the agreed place for it, or is it duplicated elsewhere? If duplicated, decide which version is authoritative and remove the other.
 2. **Schedule vs drawing vs spec.** Check that 'building elements' schedules (finishes, FFE, spec schedules) are appended to Z, and 'assembly of elements' schedules (doors, rooms) are in the drawing set.
 3. **Annotation pass.** Run the **Workflow C** rules across all notes. Flag every `AS SPECIFIED`, every passive voice, every abbreviation not on A01.
-4. **Sheet numbering pass.** Are numbers consistent with `principles/Sheet Numbering.md`? Are there gaps left for additions?
-5. **Apply the spA tips checklist.** Read `tips/spA documentation  checklist.md` and run each item against the sheet:
+4. **Sheet numbering pass.** Are numbers consistent with `references/principles/Sheet Numbering.md`? Are there gaps left for additions?
+5. **Apply the spA tips checklist.** Read `references/tips/spA documentation  checklist.md` and run each item against the sheet:
    - Wet area setdown detail with dimension on room layouts (or referenced)?
    - Top-of-rammed-earth treatment (if applicable)?
    - Fixtures, fittings, finishes listed on room layout sheet with reference to spec/schedule?
@@ -219,13 +219,13 @@ When the staff member is brainstorming or thinking through an unresolved questio
 
 ## Files in this skill
 
-- `✱ SpA GROUNDCONTROL.md` — index, includes all wiki-links between entries
-- `A00 - Introductory documents.md` through `A80 - Schedules.md` — drawing series content lists
-- `Z - Specifications.md` — specification structure
-- `principles/` — drafting fundamentals (allocation, annotations, dimensioning, drafting, drawing graphics, drawing/describing entities, legend sheet, referencing, scales, sheet numbering, storyboarding)
-- `components/` — building elements (each lists where information about that element belongs across the set)
-- `archicad/` — ArchiCAD-specific workflows (toolbox, keynotes, classification, hotlinks, WF50.1–.4 detail methods, WF50.6 naming, WF50.7 layouts)
-- `tips/` — pragmatic checklists and FFE notes
+- `references/✱ SpA GROUNDCONTROL.md` — index, includes all wiki-links between entries
+- `references/A00 - Introductory documents.md` through `references/A80 - Schedules.md` — drawing series content lists
+- `references/Z - Specifications.md` — specification structure
+- `references/principles/` — drafting fundamentals (allocation, annotations, dimensioning, drafting, drawing graphics, drawing/describing entities, legend sheet, referencing, scales, sheet numbering, storyboarding)
+- `references/components/` — building elements (each lists where information about that element belongs across the set)
+- `references/archicad/` — ArchiCAD-specific workflows (toolbox, keynotes, classification, hotlinks, WF50.1–.4 detail methods, WF50.6 naming, WF50.7 layouts)
+- `references/tips/` — pragmatic checklists and FFE notes
 
 When uncertain, **read the file**. Don't invent conventions that aren't in the codex.
 
