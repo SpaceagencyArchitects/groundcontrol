@@ -1,0 +1,30 @@
+{
+  "_comment": "spaceagency house style parameters. Edit here to change the font, spacing, logo etc. for every document format_docx.py touches.",
+  "font": "KMR Waldenburg",
+  "no_bold": true,
+  "caps_headings": true,
+  "remove_header_line": true,
+  "heading_spacing": {
+    "Heading1": [24, 12],
+    "Heading2": [18, 6],
+    "Heading3": [12, 6],
+    "Heading4": [6, 6]
+  },
+  "clean_bookmarks": true,
+  "bookmark_headings": true,
+  "collapse_blanks": true,
+  "strip_soft_breaks": true,
+  "logo": {
+    "file": "assets/logo.png",
+    "width_cm": 3,
+    "token": "{{logo}}",
+    "in_header": false
+  },
+  "company": {
+    "token": "{{company}}",
+    "name": "spaceagency Architects",
+    "address": "10 High Street, Fremantle, WA 6160",
+    "phone": "(08) 9430 5450",
+    "email": "studio@spaceagency.com.au"
+  }
+}

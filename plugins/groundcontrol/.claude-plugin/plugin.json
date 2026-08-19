@@ -1,6 +1,6 @@
 {
   "name": "groundcontrol",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "spaceagency's practice codex and WA project toolkit as a Claude plugin. The GROUNDCONTROL documentation codex (what information goes where in a construction set, ArchiCAD detail workflows, drafting principles, and the spA voice) plus WA workflow skills — site analysis, due diligence, planning-envelope, materials research, and presentations — reached via the /studio router and governed by the practice rules/.",
   "author": {
     "name": "spaceagency"
