@@ -17,7 +17,7 @@ allowed-tools:
 
 ## Conventions (spA)
 
-Full detail in the plugin's `../../rules/` folder.
+Full detail in the plugin's `../../rules/` folder. If that folder is not present (the skill is running standalone, without the plugin), treat the conventions here as authoritative.
 
 - **Metric & Australian English** by default; **WA** context unless stated otherwise.
 - **AI-assisted output** supporting the architect's judgment — flag assumptions and anything unverified (`../../rules/professional-disclaimer.md`).

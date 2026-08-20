@@ -15,7 +15,7 @@ user-invocable: true
 
 ## Conventions (spA)
 
-Apply before producing output; full detail in the plugin's `../../rules/` folder.
+Apply before producing output; full detail in the plugin's `../../rules/` folder. If that folder is not present (the skill is running standalone, without the plugin), treat the conventions here as authoritative.
 
 - **Metric & WA default** — metric (SI), Australian English, Western Australia jurisdiction unless the user states otherwise.
 - **State data currency** — cite each source and the date/version retrieved (ABS Census year, BoM reference period, viewer snapshot); flag anything that may be stale (`../../rules/transparency.md`).

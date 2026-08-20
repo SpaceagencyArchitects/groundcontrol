@@ -44,6 +44,7 @@ Examples:
 | 3D envelope viewer only (has a planning analysis report already) | `/zoning-envelope` | Skill |
 | **Construction documentation** — where information belongs in the set, sheet numbering (A00–Z), detail workflow (WF50), keynotes, schedules, writing notes in the spA voice, a CD-set / pre-issue review | the **GROUNDCONTROL** codex skill | Skill |
 | **Drawing issue / transmittal** — build or update the drawing issue register / transmittal, "who got which revision", issue the set | `/transmittal` | Skill |
+| **Pool / spa safety barrier** — barrier height, gaps, gate/latch spec, materials, Non-Climbable Zones, placement near columns/structures | `/pool-fence-check` | Skill |
 | User names a specific skill (e.g., "wa-property-report for…", "run planning-analysis-wa") | That skill directly | Skill |
 
 ## Routing Rules

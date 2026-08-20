@@ -15,7 +15,7 @@ user-invocable: true
 
 ## Conventions (spA)
 
-Apply before producing output; full detail in the plugin's `../../rules/` folder.
+Apply before producing output; full detail in the plugin's `../../rules/` folder. If that folder is not present (the skill is running standalone, without the plugin), treat the conventions here as authoritative.
 
 - **Metric & WA default** — metric (SI), Australian English, Western Australia jurisdiction unless the user states otherwise.
 - **Verify code currency** — never rely on a code, standard, or rating-tool edition without confirming it is the current in-force version against the official source; state the edition and the date checked, or flag it as unverified (`../../rules/code-currency.md`).
