@@ -7,6 +7,14 @@
 * Lists all joinery items and give reference to drawing sheet where the 1:25 detail is provided. Lists all loose furniture items and provides brief description.  
 * FFE schedule with full description of items is done as a standalone A4 document in [[A80 - Schedules]].  
   
+## LINE OF HEIGHTS  
+* Legend sheet diagram setting out standard heights, above finished floor level (AFFL), for recurring wall-mounted fixtures — light switches, GPOs, data/TV outlets, wall lights, door furniture (handle and lock height), towel rails, mirrors and joinery pulls.  
+* Say it once: sets the office standard so internal elevations do not redimension every occurrence. See [Allocation of Information](principles/Allocation%20of%20Information.md).  
+* Internal elevations call up the item by generic code only. Dimension a fixture on the internal elevation only where the room departs from the standard (accessible bathroom, joinery-adjacent GPO, child-height switch, etc.).  
+* Express heights AFFL to the nearest 5mm. See [Dimensioning](principles/Dimensioning.md).  
+  
+  ![[Pasted image 20260914124741.png|658]]
+  
 ## INTERNAL SPACES - PLANS (1:50, 1:25)  
 Used to graphically describe rooms which can not be adequately scheduled in the A80 - Schedules room schedule, e.g. lobby, foyer, atrium, banquet room, reception, meeting room, staff station, auditorium, hotel rooms, etc.  
   
@@ -38,6 +46,7 @@ Other items that may be shown on these layouts
 * Codes describing wall mounted fixtures, fittings and equipment.  
 * wall mounted electric fixtures (eg. GPOs, switches and light fittings)  
 * Vertical dimensions and setting-out of fixtures, accessories, sanitary- and tapware 
+* Wall mounted electric fixtures and door furniture follow the Line of Heights legend (above) unless the room departs from the standard — dimension only the departure  
 * setting our points  
 * Detail markers referring to [[A50 - Interface Details]] and [[A65 - Joinery]] detail drawings  
 

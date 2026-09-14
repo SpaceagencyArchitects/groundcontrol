@@ -4,6 +4,7 @@
 * Treatment to top of rammed earth walls
 * List fixtures, fittings and finishes on room layout sheet (Keynotes, Description) with reference to spec or schedule
 * Use generic labels for electrical items on arch plans (ceilings, room layouts) - eg LSP, DGPO, WL etc. Do not use full item code. Identify full code on electrical drawings only.
+* Standard AFFL mounting heights for wall-mounted fixtures (switches, GPOs, wall lights, door furniture) are set once on the A60 Line of Heights legend. Don't redimension on room elevations unless a room departs from the standard.
 
 - floor types are finishes applied to structural subfloors. Don't include concrete slabs (unless the slab is the finish), joists or particleboard flooring that are part of the subfloor.
 

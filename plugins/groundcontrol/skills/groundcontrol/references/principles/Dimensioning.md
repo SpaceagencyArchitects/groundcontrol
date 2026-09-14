@@ -20,7 +20,7 @@ Spot levels are used to indicate required or existing levels for a specific poin
 ![](Dimensioning/E09FBD73-BDCD-4B8E-BED0-49E1604B21AE.png)  
   
 ### Restrict the Use of RLs  
-Use relative heights 'above finished floor level' (AFFL) e.g. dimension the height of a handrail in millimetres.  
+Use relative heights 'above finished floor level' (AFFL) e.g. dimension the height of a handrail in millimetres. Standard AFFL heights for recurring wall-mounted fixtures are set once on the [A60 Line of Heights legend](../A60%20-%20Internal%20Spaces%20%28Room%20Layouts%29.md).  
   
 ## Identify Dimensions Which Are Not Known  
 Dimensions to be determined during the construction  
