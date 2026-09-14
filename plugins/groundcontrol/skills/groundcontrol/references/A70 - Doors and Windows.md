@@ -46,7 +46,7 @@ Too little detail → RFIs
 Too much detail → unintended specification liability.
 
 Reference — mortice lock functions:  
-[Mortice lock function chart](A70%20-%20Doors%20and%20Windows/mortice-lock-function-chart.pdf)<!-- {"embed":"true", "preview":"true"} -->
+[Mortice lock function chart](attachments/A70%20-%20Doors%20and%20Windows/mortice-lock-function-chart.pdf)<!-- {"embed":"true", "preview":"true"} -->
 
 #### Typical Content:  
 * Storey [use on larger projects only]  
@@ -126,15 +126,15 @@ A tabular schedule of every window type listing its location(s) in the project.
 - Quantity  
 
 ## Examples:  
-[Sample dw schedule 1.pdf](A70%20-%20Doors%20and%20Windows/Sample%20dw%20schedule%201.pdf)<!-- {"embed":"true", "preview":"true"} -->
-[Sample dw schedule 2.pdf](A70%20-%20Doors%20and%20Windows/Sample%20dw%20schedule%202.pdf)<!-- {"embed":"true", "preview":"true"} -->
-[Sample dw schedule 3.pdf](A70%20-%20Doors%20and%20Windows/Sample%20dw%20schedule%203.pdf)<!-- {"embed":"true", "preview":"true"} -->
+[Sample dw schedule 1.pdf](attachments/A70%20-%20Doors%20and%20Windows/Sample%20dw%20schedule%201.pdf)<!-- {"embed":"true", "preview":"true"} -->
+[Sample dw schedule 2.pdf](attachments/A70%20-%20Doors%20and%20Windows/Sample%20dw%20schedule%202.pdf)<!-- {"embed":"true", "preview":"true"} -->
+[Sample dw schedule 3.pdf](attachments/A70%20-%20Doors%20and%20Windows/Sample%20dw%20schedule%203.pdf)<!-- {"embed":"true", "preview":"true"} -->
   
 Legends:  
-![](A70%20-%20Doors%20and%20Windows/IMG_5281.png)
-![](A70%20-%20Doors%20and%20Windows/IMG_5280.jpeg)
-![](A70%20-%20Doors%20and%20Windows/IMG_5279.png)
-![](A70%20-%20Doors%20and%20Windows/IMG_5278.png)
+![](attachments/A70%20-%20Doors%20and%20Windows/IMG_5281.png)
+![](attachments/A70%20-%20Doors%20and%20Windows/IMG_5280.jpeg)
+![](attachments/A70%20-%20Doors%20and%20Windows/IMG_5279.png)
+![](attachments/A70%20-%20Doors%20and%20Windows/IMG_5278.png)
 
 ---
 **See also:** [[Tagging of Elements in ArchiCAD]] for door and window element ID and type conventions; [[Classification and Properties]] for ArchiCAD interactive schedule setup.
