@@ -13,7 +13,7 @@
 * Internal elevations call up the item by generic code only. Dimension a fixture on the internal elevation only where the room departs from the standard (accessible bathroom, joinery-adjacent GPO, child-height switch, etc.).  
 * Express heights AFFL to the nearest 5mm. See [Dimensioning](principles/Dimensioning.md).  
   
-  ![[Pasted image 20260914124741.png|658]]
+![Line of Heights diagram](A60%20-%20Internal%20Spaces%20%28Room%20Layouts%29/line-of-heights-diagram.png)  
   
 ## INTERNAL SPACES - PLANS (1:50, 1:25)  
 Used to graphically describe rooms which can not be adequately scheduled in the A80 - Schedules room schedule, e.g. lobby, foyer, atrium, banquet room, reception, meeting room, staff station, auditorium, hotel rooms, etc.  
