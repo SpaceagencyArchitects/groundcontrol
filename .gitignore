@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+**/.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Editors
+.vscode/
+.obsidian/
+*.swp
+*~
+
+# Packaged skill (build with scripts/package-skill.sh)
+dist/
